@@ -104,8 +104,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>contrib\SDL\include;contrib;src;$(IncludePath);$(VC_IncludePath)</IncludePath>
-    <LibraryPath>contrib\SDL\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\vulkan_sdk\1.1.126.0\include;contrib\SDL\include;contrib;src;$(IncludePath);$(VC_IncludePath)</IncludePath>
+    <LibraryPath>contrib\SDL\lib\x64;D:\vulkan_sdk\1.1.126.0\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

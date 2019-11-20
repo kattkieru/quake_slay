@@ -1,0 +1,9 @@
+[submodule "contrib/imgui"]
+	path = contrib/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "contrib/zlib"]
+	path = contrib/zlib
+	url = https://github.com/kattkieru/zlib.git
+[submodule "contrib/sdl2"]
+	path = contrib/sdl2
+	url = https://github.com/kattkieru/SDL2.git
