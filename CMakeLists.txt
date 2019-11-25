@@ -29,7 +29,9 @@ endif(MINGW OR MSVC)
 add_subdirectory(contrib/zlib)
 add_subdirectory(contrib/stb_image)
 add_subdirectory(contrib/sdl2)
-# add_subdirectory(src)
+add_subdirectory(src)
+
+add_dependencies(slay zlibstatic stb_image SDL2-static SDL2main)
 
 ## this fixes linking in debug builds -- the 'd' postfix
 ## is largely irrelevant these days
@@ -39,7 +41,7 @@ add_subdirectory(contrib/sdl2)
 # add_dependencies(slay SDL2-static SDL2main zlibstatic stb_image)
 
 
-install(TARGETS zlibstatic stb_image SDL2-static SDL2main
+install(TARGETS slay zlibstatic stb_image SDL2-static SDL2main
 		RUNTIME  DESTINATION "${INSTALL_BIN_DIR}"
 		ARCHIVE  DESTINATION "${INSTALL_LIB_DIR}"
 		LIBRARY  DESTINATION "${INSTALL_LIB_DIR}"

@@ -1,0 +1,48 @@
+cmake_minimum_required(VERSION 2.4.4)
+
+project(slay)
+
+set( SOURCES
+	main.cpp
+	Application.cpp
+	Frustum.cpp
+	InputHandlers.cpp
+	Math.cpp
+	StringHelpers.cpp
+	ThreadProcessor.cpp
+	Utils.cpp
+
+	q3bsp/Q3BspLoader.cpp
+	q3bsp/Q3BspMap.cpp
+	q3bsp/Q3BspPatch.cpp
+	q3bsp/Q3BspStatsUI.cpp
+
+	renderer/Camera.cpp
+	renderer/CameraDirector.cpp
+	renderer/Font.cpp
+	renderer/GameTexture.cpp
+	renderer/RenderContext.cpp
+	renderer/TextureManager.cpp
+	
+	renderer/vulkan/Base.cpp
+	renderer/vulkan/Buffers.cpp
+	renderer/vulkan/CmdBuffer.cpp
+	renderer/vulkan/Device.cpp
+	renderer/vulkan/Image.cpp
+	renderer/vulkan/Pipeline.cpp
+	renderer/vulkan/Validation.cpp
+	renderer/vulkan/VkMemAlloc.cpp
+
+)
+
+include_directories(
+	.
+	common
+	q3bsp
+	renderer
+	../contrib/sdl2/include
+	../contrib/stb_image
+	../contrib/zlib
+	../contrib/imgui/
+)
+add_executable(slay ${SOURCES})
