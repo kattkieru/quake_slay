@@ -54,18 +54,9 @@ add_dependencies(slay zlibstatic stb_image SDL2-static SDL2main)
 # add_dependencies(slay SDL2-static SDL2main zlibstatic stb_image)
 
 
-install(TARGETS slay zlibstatic stb_image SDL2-static SDL2main
-		RUNTIME  DESTINATION "${INSTALL_BIN_DIR}"
-		ARCHIVE  DESTINATION "${INSTALL_LIB_DIR}"
-		LIBRARY  DESTINATION "${INSTALL_LIB_DIR}"
-		INCLUDES DESTINATION "${INSTALL_INC_DIR}"
-		)
-
-## resource copying
-add_custom_target(copy-resources-maps ALL
-    COMMAND cmake -E copy_directory ${CMAKE_SOURCE_DIR}/maps ${CMAKE_BINARY_DIR}/maps
-    DEPENDS slay)
-
-add_custom_target(copy-resources-res ALL
-    COMMAND cmake -E copy_directory ${CMAKE_SOURCE_DIR}/res ${CMAKE_BINARY_DIR}/res
-    DEPENDS slay)
+# install(TARGETS slay zlibstatic stb_image SDL2-static SDL2main
+# 		RUNTIME  DESTINATION "${INSTALL_BIN_DIR}"
+# 		ARCHIVE  DESTINATION "${INSTALL_LIB_DIR}"
+# 		LIBRARY  DESTINATION "${INSTALL_LIB_DIR}"
+# 		INCLUDES DESTINATION "${INSTALL_INC_DIR}"
+# 		)
