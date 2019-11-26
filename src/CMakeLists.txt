@@ -45,4 +45,10 @@ include_directories(
 	../contrib/zlib
 	../contrib/imgui/
 )
+
 add_executable(slay ${SOURCES})
+target_link_libraries(
+	slay
+	zlibstatic stb_image SDL2-static SDL2main
+	vulkan-1.lib
+)

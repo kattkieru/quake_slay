@@ -16,14 +16,27 @@ endif()
 
 project(slayengine)
 
+set(VULKAN_SDK "" CACHE STRING "Path to the Vulkan SDK")
+
+IF("${VULKAN_SDK}" STREQUAL "")
+	message( FATAL_ERROR "Can't find the Vulkan SDK-- please aim the VULKAN_SDK path at the correct folder.")
+ENDIF()
+
+include_directories( "${VULKAN_SDK}/include" contrib )
+link_directories( "${VULKAN_SDK}/lib" )
+
 ## for SDL2 -- override defaults
 set(SDL_SHARED_ENABLED_BY_DEFAULT OFF)
 set(SDL_STATIC_ENABLED_BY_DEFAULT ON)
 option(SDL_STATIC_PIC "" ON)
 
+## zlib options
+set(SKIP_INSTALL_LIBRARIES OFF)
+
 if (MINGW OR MSVC)
 	option(VIDEO_VULKAN "" ON)
 	option(VIDEO_OPENGL "" OFF)
+	add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif(MINGW OR MSVC)
 
 add_subdirectory(contrib/zlib)
@@ -48,3 +61,11 @@ install(TARGETS slay zlibstatic stb_image SDL2-static SDL2main
 		INCLUDES DESTINATION "${INSTALL_INC_DIR}"
 		)
 
+## resource copying
+add_custom_target(copy-resources-maps ALL
+    COMMAND cmake -E copy_directory ${CMAKE_SOURCE_DIR}/maps ${CMAKE_BINARY_DIR}/maps
+    DEPENDS slay)
+
+add_custom_target(copy-resources-res ALL
+    COMMAND cmake -E copy_directory ${CMAKE_SOURCE_DIR}/res ${CMAKE_BINARY_DIR}/res
+    DEPENDS slay)
