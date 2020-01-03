@@ -1,5 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
-clang metal_test.m -o metal_test -F /System/Library/Frameworks -framework /System/Library/Frameworks/Metal.framework /System/Library/Frameworks/MetalKit.framework -framework /System/Library/Frameworks/Foundation.framework -framework /System/Library/Frameworks/QuartzCore.framework -framework /System/Library/Frameworks/IOKit.framework -framework /System/Library/Frameworks/IOSurface.framework
+export SDKROOT=`xcrun --show-sdk-path`
+export FRAMEWORKS=$SDKROOT/System/Library/Frameworks
+
+clang metal_test.m -o metal_test -framework Metal -framework MetalKit -framework Foundation -framework QuartzCore -framework IOKit -framework IOSurface
 
 ./metal_test

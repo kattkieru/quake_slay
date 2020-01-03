@@ -40,10 +40,8 @@ option(SDL_STATIC_PIC "" ON)
 set(SKIP_INSTALL_LIBRARIES OFF)
 
 ## sdl2 options
-option(VIDEO_VULKAN "" ON)
-option(VIDEO_OPENGL "" OFF)
-
 if (MINGW OR MSVC)
+	option(VIDEO_OPENGL "" OFF)
 	add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif(MINGW OR MSVC)
 
@@ -51,6 +49,8 @@ if (APPLE)
 	option(VIDEO_METAL "" ON)
 	option(RENDER_METAL "" ON)
 endif(APPLE)
+
+option(VIDEO_VULKAN "" ON)
 
 add_subdirectory(contrib/zlib)
 add_subdirectory(contrib/stb_image)
