@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\contrib\sdl2\;CMake Files\contrib\sdl2\cmake\;CMake Files\contrib\sdl2\include\;CMake Files\contrib\zlib\;CMake Files\contrib\stb_image\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/Users/kiki/dev/slay/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/Users/kiki/dev/slay/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="/Users/kiki/dev/slay/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="/Users/kiki/dev/slay/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/libz.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/libz.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib"/>
+					<Add directory="/Users/kiki/dev/slay"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kiki/dev/slay/cmake-build-debug/contrib/zlib/zconf.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/adler32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/compress.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/crc32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/crc32.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/deflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/deflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/gzclose.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/gzguts.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/gzlib.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/gzread.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/gzwrite.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/infback.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inffast.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inffast.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inffixed.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inftrees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/inftrees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/test/example.c">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/test/minigzip.c">
+			<Option target="minigzip"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/trees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/trees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/uncompr.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zlib.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zutil.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zutil.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\include\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/stb_image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\stb_image\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

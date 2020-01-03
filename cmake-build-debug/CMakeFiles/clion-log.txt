@@ -1,0 +1,128 @@
+"/Users/kiki/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DVULKAN_SDK:STRING=/Users/kiki/dev/vulkansdk/macOS -G "CodeBlocks - Unix Makefiles" /Users/kiki/dev/slay
+-- 
+-- SDL2 was configured with the following options:
+-- 
+-- Platform: Darwin-19.2.0
+-- 64-bit:   TRUE
+-- Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- 
+-- Subsystems:
+--   Atomic:	ON
+--   Audio:	ON
+--   Video:	ON
+--   Render:	ON
+--   Events:	ON
+--   Joystick:	ON
+--   Haptic:	ON
+--   Power:	ON
+--   Threads:	ON
+--   Timers:	ON
+--   File:	ON
+--   Loadso:	ON
+--   CPUinfo:	ON
+--   Filesystem:	ON
+--   Dlopen:	ON
+--   Sensor:	ON
+-- 
+-- Options:
+--   3DNOW                  (Wanted: ON): ON
+--   ALSA                   (Wanted: OFF): OFF
+--   ALSA_SHARED            (Wanted: OFF): OFF
+--   ALTIVEC                (Wanted: ON): OFF
+--   ARMNEON                (Wanted: ON): OFF
+--   ARMSIMD                (Wanted: ON): OFF
+--   ARTS                   (Wanted: OFF): OFF
+--   ARTS_SHARED            (Wanted: OFF): OFF
+--   ASSEMBLY               (Wanted: ON): ON
+--   ASSERTIONS             (Wanted: auto): auto
+--   BACKGROUNDING_SIGNAL   (Wanted: OFF): OFF
+--   CLOCK_GETTIME          (Wanted: OFF): OFF
+--   DIRECTFB_SHARED        (Wanted: OFF): OFF
+--   DIRECTX                (Wanted: OFF): OFF
+--   DISKAUDIO              (Wanted: ON): ON
+--   DUMMYAUDIO             (Wanted: ON): ON
+--   ESD                    (Wanted: OFF): OFF
+--   ESD_SHARED             (Wanted: OFF): OFF
+--   FOREGROUNDING_SIGNAL   (Wanted: OFF): OFF
+--   FUSIONSOUND            (Wanted: OFF): OFF
+--   FUSIONSOUND_SHARED     (Wanted: OFF): OFF
+--   GCC_ATOMICS            (Wanted: ON): ON
+--   HIDAPI                 (Wanted: OFF): OFF
+--   INPUT_TSLIB            (Wanted: OFF): OFF
+--   JACK                   (Wanted: OFF): OFF
+--   JACK_SHARED            (Wanted: OFF): OFF
+--   KMSDRM_SHARED          (Wanted: OFF): OFF
+--   LIBC                   (Wanted: ON): ON
+--   LIBSAMPLERATE          (Wanted: OFF): OFF
+--   LIBSAMPLERATE_SHARED   (Wanted: OFF): OFF
+--   MMX                    (Wanted: ON): ON
+--   NAS                    (Wanted: OFF): OFF
+--   NAS_SHARED             (Wanted: OFF): OFF
+--   OSS                    (Wanted: OFF): OFF
+--   PTHREADS               (Wanted: ON): ON
+--   PTHREADS_SEM           (Wanted: ON): ON
+--   PULSEAUDIO             (Wanted: OFF): OFF
+--   PULSEAUDIO_SHARED      (Wanted: OFF): OFF
+--   RENDER_D3D             (Wanted: OFF): OFF
+--   RENDER_METAL           (Wanted: 0): OFF
+--   RPATH                  (Wanted: OFF): OFF
+--   SDL_DLOPEN             (Wanted: ON): ON
+--   SDL_STATIC_PIC         (Wanted: ON): OFF
+--   SDL_TEST               (Wanted: OFF): OFF
+--   SNDIO                  (Wanted: OFF): OFF
+--   SSE                    (Wanted: ON): ON
+--   SSE2                   (Wanted: ON): ON
+--   SSE3                   (Wanted: ON): ON
+--   SSEMATH                (Wanted: ON): OFF
+--   VIDEO_COCOA            (Wanted: ON): ON
+--   VIDEO_DIRECTFB         (Wanted: OFF): OFF
+--   VIDEO_DUMMY            (Wanted: ON): ON
+--   VIDEO_KMSDRM           (Wanted: OFF): OFF
+--   VIDEO_METAL            (Wanted: 0): OFF
+--   VIDEO_OFFSCREEN        (Wanted: OFF): OFF
+--   VIDEO_OPENGL           (Wanted: OFF): OFF
+--   VIDEO_OPENGLES         (Wanted: ON): ON
+--   VIDEO_RPI              (Wanted: OFF): OFF
+--   VIDEO_VIVANTE          (Wanted: OFF): OFF
+--   VIDEO_VULKAN           (Wanted: 0): OFF
+--   VIDEO_WAYLAND          (Wanted: OFF): OFF
+--   VIDEO_WAYLAND_QT_TOUCH (Wanted: OFF): OFF
+--   VIDEO_X11              (Wanted: OFF): OFF
+--   VIDEO_X11_XCURSOR      (Wanted: OFF): OFF
+--   VIDEO_X11_XINERAMA     (Wanted: OFF): OFF
+--   VIDEO_X11_XINPUT       (Wanted: OFF): OFF
+--   VIDEO_X11_XRANDR       (Wanted: OFF): OFF
+--   VIDEO_X11_XSCRNSAVER   (Wanted: OFF): OFF
+--   VIDEO_X11_XSHAPE       (Wanted: OFF): OFF
+--   VIDEO_X11_XVM          (Wanted: OFF): OFF
+--   WASAPI                 (Wanted: OFF): OFF
+--   WAYLAND_SHARED         (Wanted: OFF): OFF
+--   X11_SHARED             (Wanted: OFF): OFF
+-- 
+--  CFLAGS:         -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos
+--  EXTRA_CFLAGS:  -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall 
+--  EXTRA_LDFLAGS: -Wl,-undefined,error;-Wl,-compatibility_version,1.0.0;-Wl,-current_version,10.0.0
+--  EXTRA_LIBS:    m;iconv;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreVideo.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/IOKit.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ForceFeedback.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Carbon.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreAudio.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AudioToolbox.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+--  Build Static Library with Position Independent Code: ON
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CFLAGS and LDFLAGS environment variables correctly.
+-- 
+-- Configuring done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   zlib
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /Users/kiki/dev/slay/cmake-build-debug

@@ -1,5 +1,8 @@
 
 cmake_minimum_required(VERSION 3.4)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
@@ -11,8 +14,11 @@ set(INSTALL_INC_DIR "${CMAKE_SOURCE_DIR}/include")
 
 if(WINDOWS)
 	set(CMAKE_SHARED_LIBRARY_PREFIX "")
-	set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_CRT_SECURE_NO_WARNINGS")
+	set(CMAKE_CPP_FLAGS "${CMAKE_CPP_FLAGS} -D_CRT_SECURE_NO_WARNINGS")
+elseif(APPLE OR UNIX)
+	set(CMAKE_CPP_FLAGS "${CMAKE_CPP_FLAGS} -Wno-c++11-extensions")
 endif()
+
 
 project(slayengine)
 
@@ -33,11 +39,18 @@ option(SDL_STATIC_PIC "" ON)
 ## zlib options
 set(SKIP_INSTALL_LIBRARIES OFF)
 
+## sdl2 options
+option(VIDEO_VULKAN "" ON)
+option(VIDEO_OPENGL "" OFF)
+
 if (MINGW OR MSVC)
-	option(VIDEO_VULKAN "" ON)
-	option(VIDEO_OPENGL "" OFF)
 	add_definitions(-D_CRT_SECURE_NO_WARNINGS)
 endif(MINGW OR MSVC)
+
+if (APPLE)
+	option(VIDEO_METAL "" ON)
+	option(RENDER_METAL "" ON)
+endif(APPLE)
 
 add_subdirectory(contrib/zlib)
 add_subdirectory(contrib/stb_image)

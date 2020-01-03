@@ -1,24 +1,28 @@
 #include "ThreadProcessor.hpp"
 #include "Utils.hpp"
 
-ThreadProcessor::Worker::Worker()
+std::mutex taskMutex;
+std::condition_variable cv;
+
+
+Worker::Worker()
 {
-    thread = std::thread(&Worker::Work, this);
+    thread = std::make_shared<std::thread>(&Worker::Work, this);
 }
 
-ThreadProcessor::Worker::~Worker()
+Worker::~Worker()
 {
     Finish();
 }
 
-void ThreadProcessor::Worker::AddTask(ThreadTask &&task)
+void Worker::AddTask(ThreadTask &&task)
 {
     std::unique_lock<std::mutex> lock(taskMutex);
     tasks.emplace(task);
     cv.notify_one();
 }
 
-void ThreadProcessor::Worker::Work()
+void Worker::Work()
 {
     while (true)
     {
@@ -40,22 +44,22 @@ void ThreadProcessor::Worker::Work()
     }
 }
 
-void ThreadProcessor::Worker::WaitComplete()
+void Worker::WaitComplete()
 {
     std::unique_lock<std::mutex> queueLock(taskMutex);
     cv.wait(queueLock, [this]() { return tasks.empty(); });
 }
 
-void ThreadProcessor::Worker::Finish()
+void Worker::Finish()
 {
-    if (thread.joinable())
+    if (thread->joinable())
     {
         WaitComplete();
         taskMutex.lock();
         finish = true;
         cv.notify_one();
         taskMutex.unlock();
-        thread.join();
+        thread->join();
     }
 }
 

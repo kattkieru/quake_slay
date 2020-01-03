@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SDL2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\contrib\sdl2\;CMake Files\contrib\sdl2\cmake\;CMake Files\contrib\sdl2\include\;CMake Files\contrib\zlib\;CMake Files\contrib\stb_image\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/libSDL2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib/sdl2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 SDL2-static"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static/fast">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/libSDL2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib/sdl2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 SDL2-static/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/libSDL2maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib/sdl2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 SDL2main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main/fast">
+				<Option output="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/libSDL2maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="/Users/kiki/dev/vulkansdk/macOS/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib"/>
+					<Add directory="/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/include"/>
+					<Add directory="/Users/kiki/dev/slay/contrib/sdl2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 SDL2main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/kiki/dev/slay/cmake-build-debug/contrib/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c">
+			<Option target="SDL2main"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.h">
+			<Option target="SDL2-static"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/SDL2.spec.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/sdl2-config.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/sdl2.pc.in">
+			<Option virtualFolder="CMake Files\contrib\sdl2\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/sdl2/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\contrib\sdl2\include\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/contrib/stb_image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\stb_image\"/>
+		</Unit>
+		<Unit filename="/Users/kiki/dev/slay/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

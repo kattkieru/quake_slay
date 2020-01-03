@@ -1,0 +1,1662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		13BEED47C35344E4BE6675E5 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0FEFF4B9F02B4F40BBD7715E /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				2E1F6C3A562F46E38AF80AB7 /* CMake Rules */,
+			);
+			dependencies = (
+				044CE5F638F04D3BA407F795 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		9D1E625540B34366B9E615F9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0CEE62D142A4E969288FD8F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2560B583466049BDB4AF46DB /* CMake Rules */,
+			);
+			dependencies = (
+				6B6F58ACC71C4CB8BB991C66 /* PBXTargetDependency */,
+				A6729D8CF00B4E39A4892C9E /* PBXTargetDependency */,
+				B74E1D536F8F4F63A420D740 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F1682E4C412D49168E0E681E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DBB02D3DA09F45FF9ADB9A71 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				035BAC54C9F145D5BF49E45E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FC1BEB996D8A451798BF5FA6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E56C52314004ACCBFE63F4B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C2F3CFCB6B5A4C378E069AB4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3F65C6F10DF34598BDB365AB /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00254F593DE7438B81E9833D /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m */ = {isa = PBXBuildFile; fileRef = 6EF7DEDCBE994F319F26198F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m */; };
+		0037C8C2D156472EBAC098F6 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c */ = {isa = PBXBuildFile; fileRef = 2C64118B412A4287891625E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c */; };
+		0271C1F28A5D41AE9AED2947 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c */ = {isa = PBXBuildFile; fileRef = F4A7A2B757ED4D15AF214272 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c */; };
+		04163427F059493A83BADCAD /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c */ = {isa = PBXBuildFile; fileRef = C95D8BAAA2AF4C9BB8D0E27C /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c */; };
+		045E0DF881404E3A9199F55A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c */ = {isa = PBXBuildFile; fileRef = 4F34676832E44252BBC90475 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c */; };
+		046F9B35625D4BB5B3D8AAC4 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c */ = {isa = PBXBuildFile; fileRef = BBE953F5B6CA4D5FB449070B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c */; };
+		055790B89ED540028DC3BC16 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c */ = {isa = PBXBuildFile; fileRef = 97A5DF7F79DA416480D4B7B9 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c */; };
+		09E07B75B7AB46F98F22B6B8 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c */ = {isa = PBXBuildFile; fileRef = 847F4416C0EC42A6BAB90EEA /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c */; };
+		0C983381711F4624BCEEE1E5 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c */ = {isa = PBXBuildFile; fileRef = 40212A64B0D44BA2B07C426F /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c */; };
+		0DCA3322BCEF48E2AA0C7747 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c */ = {isa = PBXBuildFile; fileRef = B931C269BA5445BAB1F99CFB /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c */; };
+		0E91FD9AED09441EA51AE8A6 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c */ = {isa = PBXBuildFile; fileRef = C2D7F69D4143423492049579 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c */; };
+		0F087E076BF74EE69EA827EA /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c */ = {isa = PBXBuildFile; fileRef = 55E750EA68FE4201BFC62BB0 /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c */; };
+		0F8C09A622464F6AAB5435A7 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m */ = {isa = PBXBuildFile; fileRef = CF63F0696090437DA70EA482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m */; };
+		11E0080B69A040F6B090047E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c */ = {isa = PBXBuildFile; fileRef = 82135229F65D4101A0E70651 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c */; };
+		12AAD0E72BE7439EB1C2B104 /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B2DAEE33429D4AAAB9379A7A /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */; };
+		15DDD04287F04B9CA8349F99 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c */ = {isa = PBXBuildFile; fileRef = D1F7CB5BD21F4A568C9A9C22 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c */; };
+		16652C7B4AE043D5AC1BD4C6 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c */ = {isa = PBXBuildFile; fileRef = F63458DCD3744B80BC735502 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c */; };
+		16D88AE194FA484A807EE20C /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c */ = {isa = PBXBuildFile; fileRef = 3C275B608BF645AB8FFFAA20 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c */; };
+		1A5765D04470403995E707CE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c */ = {isa = PBXBuildFile; fileRef = 0B8EC32384214314BB384A4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c */; };
+		1BDC4259A02C4A918492EA23 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c */ = {isa = PBXBuildFile; fileRef = 9FEF362CF6F3419489D860D1 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c */; };
+		1D97AAF45B9A47608547E270 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m */ = {isa = PBXBuildFile; fileRef = 261B5FA9902349D7B670FB48 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m */; };
+		1E3726E5E03F48CC9D3B04F6 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c */ = {isa = PBXBuildFile; fileRef = 9815AC86E95E4D4F808B5928 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c */; };
+		219DB9C882604E16AAD6F4AB /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c */ = {isa = PBXBuildFile; fileRef = 30B6BBFB23D74653BECB06A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c */; };
+		241807F5A92B404DB3A0B061 /* /Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c */ = {isa = PBXBuildFile; fileRef = A57C94C7187A4806B92E95D9 /* /Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c */; };
+		24E0839DA2AB4C5D8A6CF88B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c */ = {isa = PBXBuildFile; fileRef = 15847EFCEAFB427E8F8339BA /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c */; };
+		281A2CC68AF947C6BE3F0E5A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c */ = {isa = PBXBuildFile; fileRef = 56BECB1E4E484E8388E3B6CD /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c */; };
+		286752C6E8B1465B9636DC42 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m */ = {isa = PBXBuildFile; fileRef = 20C97172EB3B4DE898E02224 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m */; };
+		2A4390C70CE14D48BD9AAC3B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c */ = {isa = PBXBuildFile; fileRef = 5A4F529CFD1D4CD4A3E0CA6A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c */; };
+		2B38A91174B64F61B60F478B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c */ = {isa = PBXBuildFile; fileRef = 555BCD0C976F4B85B9819531 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c */; };
+		2D02F21728AD4DCC806ACEB4 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c */ = {isa = PBXBuildFile; fileRef = 46528B6D3D134ACD907C1ECA /* /Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c */; };
+		2DCBC3AC5FCB4064A98A15F1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c */ = {isa = PBXBuildFile; fileRef = 8959945F28144BC590DE0BAE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c */; };
+		2EF30D2C6FDA4356843DA228 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m */ = {isa = PBXBuildFile; fileRef = 51444A8E38034D039AEC7D7C /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m */; };
+		2F9B6F519C1842EFB8047D1B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c */ = {isa = PBXBuildFile; fileRef = BCE75917D435472B81365AC1 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c */; };
+		2FF8454D94B7413A87EF07B9 /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 19E29FFCB8DF418F8411AF49 /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */; };
+		345A18D039D449069098D7D5 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c */ = {isa = PBXBuildFile; fileRef = E077F0D1A4CD4699BE89E874 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c */; };
+		3669306E656A45F096334A4F /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c */ = {isa = PBXBuildFile; fileRef = 76A740EA44C34C3D901303CE /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c */; };
+		368832E0E4DF4C008951B9C8 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c */ = {isa = PBXBuildFile; fileRef = 411129C1D7B04CE19DA43BE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c */; };
+		373B8275CF4A4A91AA3D94D2 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c */ = {isa = PBXBuildFile; fileRef = D5FA271BD880411789B8C99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c */; };
+		39F0F06316DA41D8A81EBCC4 /* /Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c */ = {isa = PBXBuildFile; fileRef = A2ACD72D755B4BCBA2D89A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c */; };
+		3D4505F29E664494979ED5F3 /* /Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c */ = {isa = PBXBuildFile; fileRef = 1A4A9C485F6F417E87C7B9E9 /* /Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c */; };
+		3FD70DD0D9CB47639675156F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c */ = {isa = PBXBuildFile; fileRef = 59875707313A4E8D8AC56482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c */; };
+		3FDB79AEA49242A089FFDA80 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c */ = {isa = PBXBuildFile; fileRef = F4EF24982F2440A883765F96 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c */; };
+		442F3858122045A7AE2CE6C3 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c */ = {isa = PBXBuildFile; fileRef = A8B0306F7E714E2B934B9D56 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c */; };
+		44FC4ACFDD2149FBB575F0DA /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c */ = {isa = PBXBuildFile; fileRef = C0D76587472E4262A4044302 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c */; };
+		457CF33DC1704E5BA7FFBAF3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c */ = {isa = PBXBuildFile; fileRef = 78957AC387C9481E8693073A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c */; };
+		45B0223B9D9B418C8130A1F9 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c */ = {isa = PBXBuildFile; fileRef = 5EA18690727744BDBA4B2410 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c */; };
+		4743853C82F3420CB30352AE /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c */ = {isa = PBXBuildFile; fileRef = 553B2A3DBA6B4E2CB4EF299F /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c */; };
+		4989EBD94A8B46FD85B53319 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c */ = {isa = PBXBuildFile; fileRef = 70A90F5CCF5E4434A3021601 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c */; };
+		4C6D0D0852584D3EA08CC3CE /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m */ = {isa = PBXBuildFile; fileRef = 36F9DB5F3ECC4D1DA201C68F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m */; };
+		4D3DAB37C6D641F19B888F82 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c */ = {isa = PBXBuildFile; fileRef = 42995BBC1DD84CF58628162E /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c */; };
+		4D706C0ADAD74475BB68364C /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c */ = {isa = PBXBuildFile; fileRef = 045F7607C7C34D7390A711D8 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c */; };
+		4FCD7833DCB0491DB11EB4D8 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m */ = {isa = PBXBuildFile; fileRef = 901B0A6B6ABB467C84B0DC31 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m */; };
+		5083739520D14AE9A8E31B26 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c */ = {isa = PBXBuildFile; fileRef = 5C6DCBE759864419BD5F7E7C /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c */; };
+		521702314FAD46D8A0B96777 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c */ = {isa = PBXBuildFile; fileRef = 4234BA2C270344C49BE2A879 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c */; };
+		548FE525CBAF4B7EA023BBE0 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c */ = {isa = PBXBuildFile; fileRef = 72F170FEF5C345FEA4A0B4F5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c */; };
+		5AF2C2477F21476B80149CB6 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c */ = {isa = PBXBuildFile; fileRef = 978BBB26F8234C37AC1209E1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c */; };
+		5B9BBB82606B44CEA2DF544F /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c */ = {isa = PBXBuildFile; fileRef = 58DC1BC3C12A4C988D764B3C /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c */; };
+		5BD59E5F422F489788ED40F0 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c */ = {isa = PBXBuildFile; fileRef = 71513BF9FC26447BA925164A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c */; };
+		61168F620458476794F5A18A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c */ = {isa = PBXBuildFile; fileRef = 25D3087A6E2D483391DFC907 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c */; };
+		64A83763C8344E2B92009833 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m */ = {isa = PBXBuildFile; fileRef = 3439FE8FAE3C48348A150784 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m */; };
+		65B9EAC6239C435A962FA8AC /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c */ = {isa = PBXBuildFile; fileRef = 003C5E59D33248319888F5E5 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c */; };
+		670A4E015F694020B2CA0480 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m */ = {isa = PBXBuildFile; fileRef = 7C3FFADE113A4433AE30A0D0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m */; };
+		67A347B85FCD4A31870759E8 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c */ = {isa = PBXBuildFile; fileRef = 4F9D511B304F438999CB2B20 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c */; };
+		693D0B88B8E34DBEA8630C7D /* /Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c */ = {isa = PBXBuildFile; fileRef = 62F2BBC7C82E40FCA624D39C /* /Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c */; };
+		6A901EB2CBE44992B32121AA /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c */ = {isa = PBXBuildFile; fileRef = 5A76752D3FD24D0690F0F82E /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c */; };
+		6AC48C700A9241E987D50547 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c */ = {isa = PBXBuildFile; fileRef = E85A92644DBC4A04987723A7 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c */; };
+		6CA6CB86598C4292B501B061 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c */ = {isa = PBXBuildFile; fileRef = FB63233BF522426AAE232F9B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c */; };
+		6CBE7AC4CD3845D3A2DAEC63 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c */ = {isa = PBXBuildFile; fileRef = 1782B44D14D9414BA10E23CF /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c */; };
+		6F67D0B8E52C4FC7AB74595E /* /Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c */ = {isa = PBXBuildFile; fileRef = CE0E16F201E74DC1A133B958 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c */; };
+		70921AAD7CA2489688404047 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c */ = {isa = PBXBuildFile; fileRef = D7E80534CECF4AEEB0E360D4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c */; };
+		72FE0F4A5A0C4717A6DA2D12 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c */ = {isa = PBXBuildFile; fileRef = F3E8E5B64C5F4FF9AF577968 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c */; };
+		735A7F54F03D47B1A4E0961B /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c */ = {isa = PBXBuildFile; fileRef = 6F224DC47A2E421EB5BF3155 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c */; };
+		766B8C47EFE84A5484B5B833 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c */ = {isa = PBXBuildFile; fileRef = 1A45F93296404DA8875553F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c */; };
+		77688B76ABE948B7B4D450A3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c */ = {isa = PBXBuildFile; fileRef = 3FC03EC8CB8B4C76B3222C75 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c */; };
+		7DB0230034834615B4924BE7 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/metal/SDL_render_metal.m */ = {isa = PBXBuildFile; fileRef = D1A9B3E9398C4D41A9CC8252 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/metal/SDL_render_metal.m */; };
+		80CB2A82560142E09AD65F27 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m */ = {isa = PBXBuildFile; fileRef = E0D4D47185C24722A185BEBE /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m */; };
+		80D60BF72BEB4A3BA14D611F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m */ = {isa = PBXBuildFile; fileRef = 7D32F78FD354485595862CC6 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m */; };
+		824F63B9144841259A6D880F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m */ = {isa = PBXBuildFile; fileRef = 91AE2410EBD6485E984F0697 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m */; };
+		84E67517AE944F229B00D486 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c */ = {isa = PBXBuildFile; fileRef = 4A55F87D69A34125AAEDA747 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c */; };
+		8750E034823F46B7A9C674FE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c */ = {isa = PBXBuildFile; fileRef = 7618C5C795AE45D1908793B1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c */; };
+		87F86C88B320442E990FC223 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c */ = {isa = PBXBuildFile; fileRef = 352329A445DB43738463226E /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c */; };
+		88E25A7C3EB54FA192CC3A67 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c */ = {isa = PBXBuildFile; fileRef = 47FDA47DA323453EB6F9C393 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c */; };
+		8B51E22FE17647C38EE2E1E9 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c */ = {isa = PBXBuildFile; fileRef = B7DFC1AE594547ABB4B89405 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c */; };
+		8DDDCBC0E8FE4E85A727EE41 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c */ = {isa = PBXBuildFile; fileRef = 4BB635C98C324D52B557D361 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c */; };
+		934F5CAAA1A8478E88A51805 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c */ = {isa = PBXBuildFile; fileRef = E7B83CE15B8E418181464943 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c */; };
+		9487B7EA025C401C83C5A363 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c */ = {isa = PBXBuildFile; fileRef = 013285F3499545E7A3150FA8 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c */; };
+		95BBB757860E46099BBB88B2 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c */ = {isa = PBXBuildFile; fileRef = F44C191607764C40BBE0697F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c */; };
+		967FD7474A3F4D9891F824DD /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c */ = {isa = PBXBuildFile; fileRef = B66B0657DA614229AA8C977F /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c */; };
+		9B7BB9749F8F4BDD98D359D3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c */ = {isa = PBXBuildFile; fileRef = 4C0A6017E5D248F9A2AD1E54 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c */; };
+		9BD5BBECC5C24B3EA248F912 /* /Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m */ = {isa = PBXBuildFile; fileRef = FFFC31AE55BC44D2AD038A17 /* /Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m */; };
+		9C2A9A637E34483DB2C2D17C /* /Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c */ = {isa = PBXBuildFile; fileRef = 1944E166D0784C199A3E5AFD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c */; };
+		9E4BE1A9BD9F413D964E8A03 /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c */ = {isa = PBXBuildFile; fileRef = E1F070CFAAAC477BB7324A07 /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c */; };
+		A2219F7CB60F4E5188DB3223 /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c */ = {isa = PBXBuildFile; fileRef = 1308A5725C144E8DBBC54D0C /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c */; };
+		A2E6EB442E4D42EA91570A59 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c */ = {isa = PBXBuildFile; fileRef = EFFE8050309D45F48858BAE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c */; };
+		A300DD62D70042768B895F25 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL.c */ = {isa = PBXBuildFile; fileRef = 997F75993E15455E95718AB6 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL.c */; };
+		A5E9361403BF458095C27738 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c */ = {isa = PBXBuildFile; fileRef = A1E2F9376DDC4A768BFF9594 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c */; };
+		AA9ED2085A0446E48234725B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m */ = {isa = PBXBuildFile; fileRef = 6C6896B6169E4121A7131D98 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m */; };
+		AB54365F81524EBEA33051FE /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c */ = {isa = PBXBuildFile; fileRef = 97B9A77099844E4D91F371A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c */; };
+		AD9B343E135547F2936EAFD8 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c */ = {isa = PBXBuildFile; fileRef = 0A82A6D9779E4714992FD548 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c */; };
+		ADFBB8C01547498DA81B5C39 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c */ = {isa = PBXBuildFile; fileRef = 5A921FDC343B48B1BBA0A99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c */; };
+		B04640C539D64139A859420F /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c */ = {isa = PBXBuildFile; fileRef = 4010649E373345D2BD8FF8FD /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c */; };
+		B224EC0EA4CC40B99D8EF063 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c */ = {isa = PBXBuildFile; fileRef = F6FCA661FCF84F829B17C993 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c */; };
+		B268F4280E864745A31CD79C /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c */ = {isa = PBXBuildFile; fileRef = 7A0843EC531B4005BB0500A0 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c */; };
+		B390E0F90DF647E887CF5A1D /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c */ = {isa = PBXBuildFile; fileRef = 7732475C43964CDC9844BD88 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c */; };
+		B54970A326CE4EBDB076E1EB /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c */ = {isa = PBXBuildFile; fileRef = 091A65E1BAA54B64B86C72DD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c */; };
+		B87688ACE0214CA794E1F005 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c */ = {isa = PBXBuildFile; fileRef = 3E85F2C693EE4D3E88F88F09 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c */; };
+		BA59FF4C9AE549C6B30D2ED9 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c */ = {isa = PBXBuildFile; fileRef = AF7D27CF393847CFB905560B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c */; };
+		BAC8DC5C266D487896BB44CD /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c */ = {isa = PBXBuildFile; fileRef = DE71B210E6AF4176BE201A4A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c */; };
+		BFEC60A9FF5640D9BCC49F75 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c */ = {isa = PBXBuildFile; fileRef = 4922F0DD63A04474BE959B95 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c */; };
+		C10477BBC11D4E259C4864DA /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c */ = {isa = PBXBuildFile; fileRef = F44A5040C1AC4E03A16B9234 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c */; };
+		C1296628D82D498E9FEA34FD /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c */ = {isa = PBXBuildFile; fileRef = ACF2B83E7A1544AEBFA842CF /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c */; };
+		C3EE1ADC7145453EA0AE074B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c */ = {isa = PBXBuildFile; fileRef = 7C0C8A50BE1846B68BB8F883 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c */; };
+		C40B8A5D612945D38BEBECA8 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c */ = {isa = PBXBuildFile; fileRef = 0913884DF3094E6B926959E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c */; };
+		C79D414A80AA49BBA4A184A1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c */ = {isa = PBXBuildFile; fileRef = E7C3F6C5C94546C1843EACC5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c */; };
+		C92A7DF9809D468CB14D1E4A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c */ = {isa = PBXBuildFile; fileRef = ED83752ADD1A4DE4B839215F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c */; };
+		CAE503DB0A36405FB6701668 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m */ = {isa = PBXBuildFile; fileRef = 729410568A7445A3B346AE06 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m */; };
+		CFE284EAD208478F9CF7DC9C /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c */ = {isa = PBXBuildFile; fileRef = 3FAB86147C7542F1A482A42A /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c */; };
+		D08376FB5A9C41EF90358F57 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c */ = {isa = PBXBuildFile; fileRef = 6D72F85D31514EE193289725 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c */; };
+		D10B546942EF4F78A5B0B87E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c */ = {isa = PBXBuildFile; fileRef = F651A9A6026546A6BF60CEFB /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c */; };
+		D513089558324891BE4993BF /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c */ = {isa = PBXBuildFile; fileRef = 5A86F0C73CBF4898BFA89C9F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c */; };
+		D7A61E78EC1849B1BFF0D76F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m */ = {isa = PBXBuildFile; fileRef = FF897BBF594247808699B0B0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m */; };
+		DB5C1540183B4EA9A19D1EE6 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c */ = {isa = PBXBuildFile; fileRef = 48B7114C02224534B9E24A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c */; };
+		DB9E663395D24AD5945CBA46 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c */ = {isa = PBXBuildFile; fileRef = F1B905BFE50A4A77B960F454 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c */; };
+		DFD6E4EFEE6448E0A2C192A9 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c */ = {isa = PBXBuildFile; fileRef = E64ADFACE64F44BC9B303B72 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c */; };
+		E0976EF48F764B17BD85B22A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c */ = {isa = PBXBuildFile; fileRef = 56E7FD45604F4D5FB0DCB2F9 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c */; };
+		E10D7BA7E2B34BC7AE23C3A6 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c */ = {isa = PBXBuildFile; fileRef = B51BB6E3D1C24F459EBBB8C3 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c */; };
+		E1DD1BD0CEA74DA5B069CBD8 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c */ = {isa = PBXBuildFile; fileRef = 7E1AD7A6A29E4FD8BB5BC5F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c */; };
+		ECB48B6B9F3546E2B2C4D912 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c */ = {isa = PBXBuildFile; fileRef = E3DC04D3653847988A0CC396 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c */; };
+		ED0E93F495F84E85A8FF51F8 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c */ = {isa = PBXBuildFile; fileRef = BD7C3E79C7784B79BB761357 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c */; };
+		EF5F34D5AA644CAFB0A2779B /* /Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c */ = {isa = PBXBuildFile; fileRef = F7C302D094254BE6B4866029 /* /Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c */; };
+		F1E4CBEA7A1B4610B8115541 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m */ = {isa = PBXBuildFile; fileRef = 9F33DA9FE7E94ADEB844848E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m */; };
+		F290E3EE8B174742AD7FB969 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c */ = {isa = PBXBuildFile; fileRef = 5F15AA5745E348A1B74D77C0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c */; };
+		F74D0E0D24454C66B833183A /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c */ = {isa = PBXBuildFile; fileRef = 3B41F16A4B0A405AAA640744 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c */; };
+		F892741A252342EEBCE44684 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c */ = {isa = PBXBuildFile; fileRef = D76E140E4D6D444182399ADA /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c */; };
+		F8B67E8E92E9445C91C34A48 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c */ = {isa = PBXBuildFile; fileRef = B63D6D1CC44446B09E0E1BAF /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c */; };
+		F9557587D85E4EC5A318866F /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c */ = {isa = PBXBuildFile; fileRef = 60913D2A509546E5A567F268 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c */; };
+		F96F953421AB495E8CC81F04 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c */ = {isa = PBXBuildFile; fileRef = AF8378AE4A644BA582DB9C01 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c */; };
+		F9B5A554EDCC49DFB30E0C06 /* /Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c */ = {isa = PBXBuildFile; fileRef = D65D7C10487D4892A35A7333 /* /Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c */; };
+		FC6B1C7779754991927F1122 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c */ = {isa = PBXBuildFile; fileRef = 85530727481D48BF8D4B6E4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3BBBF7E8E5374C479B111C9C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4CCCD666AFBB44B18CAD30CD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		987F5D378FDA4E1BA16FB239 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B9A8CB9588E447EC9833EC89 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09DFFCEDAE164CCCA2695194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1E625540B34366B9E615F9;
+			remoteInfo = ALL_BUILD;
+		};
+		1DF8346B83954A928079B5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+		2E24A7AB198B4582848C3A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+		8EB23E0B0EBC423498719A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B4CFCB4507455CA0E78004;
+			remoteInfo = "SDL2-static";
+		};
+		C976FDDF80EE4C49AE4AFC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+		DFAFD825703D4B38BAE377A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC23D41241642BC8FEAEFF3;
+			remoteInfo = SDL2main;
+		};
+		E302B55EBF134765B5328BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E04BCBE92484F44BDA8E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003C5E59D33248319888F5E5 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_error.c; path = src/SDL_error.c; sourceTree = SOURCE_ROOT; };
+		013285F3499545E7A3150FA8 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_events.c; path = src/events/SDL_events.c; sourceTree = SOURCE_ROOT; };
+		045F7607C7C34D7390A711D8 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullevents.c; path = src/video/dummy/SDL_nullevents.c; sourceTree = SOURCE_ROOT; };
+		0913884DF3094E6B926959E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_video.c; path = src/video/SDL_video.c; sourceTree = SOURCE_ROOT; };
+		091A65E1BAA54B64B86C72DD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render.c; path = src/render/SDL_render.c; sourceTree = SOURCE_ROOT; };
+		0A82A6D9779E4714992FD548 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_yuv_sw.c; path = src/render/SDL_yuv_sw.c; sourceTree = SOURCE_ROOT; };
+		0B8EC32384214314BB384A4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rotate.c; path = src/render/software/SDL_rotate.c; sourceTree = SOURCE_ROOT; };
+		1308A5725C144E8DBBC54D0C /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_timer.c; path = src/timer/SDL_timer.c; sourceTree = SOURCE_ROOT; };
+		15847EFCEAFB427E8F8339BA /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_log10.c; path = src/libm/e_log10.c; sourceTree = SOURCE_ROOT; };
+		1782B44D14D9414BA10E23CF /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_haptic.c; path = src/haptic/SDL_haptic.c; sourceTree = SOURCE_ROOT; };
+		1944E166D0784C199A3E5AFD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_psp.c; path = src/render/psp/SDL_render_psp.c; sourceTree = SOURCE_ROOT; };
+		19E29FFCB8DF418F8411AF49 /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1A45F93296404DA8875553F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gl.c; path = src/render/opengl/SDL_render_gl.c; sourceTree = SOURCE_ROOT; };
+		1A4A9C485F6F417E87C7B9E9 /* /Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_cpuinfo.c; path = src/cpuinfo/SDL_cpuinfo.c; sourceTree = SOURCE_ROOT; };
+		20C97172EB3B4DE898E02224 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaclipboard.m; path = src/video/cocoa/SDL_cocoaclipboard.m; sourceTree = SOURCE_ROOT; };
+		25D3087A6E2D483391DFC907 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_sin.c; path = src/libm/s_sin.c; sourceTree = SOURCE_ROOT; };
+		261B5FA9902349D7B670FB48 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoavideo.m; path = src/video/cocoa/SDL_cocoavideo.m; sourceTree = SOURCE_ROOT; };
+		2C64118B412A4287891625E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_gesture.c; path = src/events/SDL_gesture.c; sourceTree = SOURCE_ROOT; };
+		30B6BBFB23D74653BECB06A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_fillrect.c; path = src/video/SDL_fillrect.c; sourceTree = SOURCE_ROOT; };
+		3439FE8FAE3C48348A150784 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamousetap.m; path = src/video/cocoa/SDL_cocoamousetap.m; sourceTree = SOURCE_ROOT; };
+		352329A445DB43738463226E /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_sin.c; path = src/libm/k_sin.c; sourceTree = SOURCE_ROOT; };
+		36F9DB5F3ECC4D1DA201C68F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaopengl.m; path = src/video/cocoa/SDL_cocoaopengl.m; sourceTree = SOURCE_ROOT; };
+		375C1284D78D4A049EDC55DE /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B41F16A4B0A405AAA640744 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_d3d.c; path = src/render/direct3d/SDL_shaders_d3d.c; sourceTree = SOURCE_ROOT; };
+		3C275B608BF645AB8FFFAA20 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_joystick.c; path = src/joystick/SDL_joystick.c; sourceTree = SOURCE_ROOT; };
+		3E85F2C693EE4D3E88F88F09 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_auto.c; path = src/video/SDL_blit_auto.c; sourceTree = SOURCE_ROOT; };
+		3FAB86147C7542F1A482A42A /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_diskaudio.c; path = src/audio/disk/SDL_diskaudio.c; sourceTree = SOURCE_ROOT; };
+		3FC03EC8CB8B4C76B3222C75 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_bmp.c; path = src/video/SDL_bmp.c; sourceTree = SOURCE_ROOT; };
+		4010649E373345D2BD8FF8FD /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummysensor.c; path = src/sensor/dummy/SDL_dummysensor.c; sourceTree = SOURCE_ROOT; };
+		40212A64B0D44BA2B07C426F /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_string.c; path = src/stdlib/SDL_string.c; sourceTree = SOURCE_ROOT; };
+		411129C1D7B04CE19DA43BE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_fabs.c; path = src/libm/s_fabs.c; sourceTree = SOURCE_ROOT; };
+		4234BA2C270344C49BE2A879 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_RLEaccel.c; path = src/video/SDL_RLEaccel.c; sourceTree = SOURCE_ROOT; };
+		42995BBC1DD84CF58628162E /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysmutex.c; path = src/thread/pthread/SDL_sysmutex.c; sourceTree = SOURCE_ROOT; };
+		46528B6D3D134ACD907C1ECA /* /Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_rgb.c; path = src/video/yuv2rgb/yuv_rgb.c; sourceTree = SOURCE_ROOT; };
+		47FDA47DA323453EB6F9C393 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_atomic.c; path = src/atomic/SDL_atomic.c; sourceTree = SOURCE_ROOT; };
+		48B7114C02224534B9E24A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_d3dmath.c; path = src/render/SDL_d3dmath.c; sourceTree = SOURCE_ROOT; };
+		4922F0DD63A04474BE959B95 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_0.c; path = src/video/SDL_blit_0.c; sourceTree = SOURCE_ROOT; };
+		4A55F87D69A34125AAEDA747 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syshaptic.c; path = src/haptic/darwin/SDL_syshaptic.c; sourceTree = SOURCE_ROOT; };
+		4BB635C98C324D52B557D361 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rect.c; path = src/video/SDL_rect.c; sourceTree = SOURCE_ROOT; };
+		4C0A6017E5D248F9A2AD1E54 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_stretch.c; path = src/video/SDL_stretch.c; sourceTree = SOURCE_ROOT; };
+		4F34676832E44252BBC90475 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_log.c; path = src/libm/e_log.c; sourceTree = SOURCE_ROOT; };
+		4F9D511B304F438999CB2B20 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dataqueue.c; path = src/SDL_dataqueue.c; sourceTree = SOURCE_ROOT; };
+		51444A8E38034D039AEC7D7C /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamessagebox.m; path = src/video/cocoa/SDL_cocoamessagebox.m; sourceTree = SOURCE_ROOT; };
+		553B2A3DBA6B4E2CB4EF299F /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_tan.c; path = src/libm/k_tan.c; sourceTree = SOURCE_ROOT; };
+		555BCD0C976F4B85B9819531 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_copysign.c; path = src/libm/s_copysign.c; sourceTree = SOURCE_ROOT; };
+		55E750EA68FE4201BFC62BB0 /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systimer.c; path = src/timer/unix/SDL_systimer.c; sourceTree = SOURCE_ROOT; };
+		56BECB1E4E484E8388E3B6CD /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_cos.c; path = src/libm/s_cos.c; sourceTree = SOURCE_ROOT; };
+		56E7FD45604F4D5FB0DCB2F9 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_1.c; path = src/video/SDL_blit_1.c; sourceTree = SOURCE_ROOT; };
+		58DC1BC3C12A4C988D764B3C /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_quit.c; path = src/events/SDL_quit.c; sourceTree = SOURCE_ROOT; };
+		59875707313A4E8D8AC56482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_vulkan_utils.c; path = src/video/SDL_vulkan_utils.c; sourceTree = SOURCE_ROOT; };
+		5A4F529CFD1D4CD4A3E0CA6A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_yuv.c; path = src/video/SDL_yuv.c; sourceTree = SOURCE_ROOT; };
+		5A76752D3FD24D0690F0F82E /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_mixer.c; path = src/audio/SDL_mixer.c; sourceTree = SOURCE_ROOT; };
+		5A86F0C73CBF4898BFA89C9F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gles2.c; path = src/render/opengles2/SDL_render_gles2.c; sourceTree = SOURCE_ROOT; };
+		5A921FDC343B48B1BBA0A99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_atan2.c; path = src/libm/e_atan2.c; sourceTree = SOURCE_ROOT; };
+		5C6DCBE759864419BD5F7E7C /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_thread.c; path = src/thread/SDL_thread.c; sourceTree = SOURCE_ROOT; };
+		5EA18690727744BDBA4B2410 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_exp.c; path = src/libm/e_exp.c; sourceTree = SOURCE_ROOT; };
+		5F15AA5745E348A1B74D77C0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_A.c; path = src/video/SDL_blit_A.c; sourceTree = SOURCE_ROOT; };
+		60913D2A509546E5A567F268 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_wave.c; path = src/audio/SDL_wave.c; sourceTree = SOURCE_ROOT; };
+		62F2BBC7C82E40FCA624D39C /* /Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_power.c; path = src/power/SDL_power.c; sourceTree = SOURCE_ROOT; };
+		6C6896B6169E4121A7131D98 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoavulkan.m; path = src/video/cocoa/SDL_cocoavulkan.m; sourceTree = SOURCE_ROOT; };
+		6D72F85D31514EE193289725 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_d3d11.c; path = src/render/direct3d11/SDL_render_d3d11.c; sourceTree = SOURCE_ROOT; };
+		6EF7DEDCBE994F319F26198F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoametalview.m; path = src/video/cocoa/SDL_cocoametalview.m; sourceTree = SOURCE_ROOT; };
+		6F224DC47A2E421EB5BF3155 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummyaudio.c; path = src/audio/dummy/SDL_dummyaudio.c; sourceTree = SOURCE_ROOT; };
+		70A90F5CCF5E4434A3021601 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_assert.c; path = src/SDL_assert.c; sourceTree = SOURCE_ROOT; };
+		71513BF9FC26447BA925164A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_rem_pio2.c; path = src/libm/k_rem_pio2.c; sourceTree = SOURCE_ROOT; };
+		729410568A7445A3B346AE06 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoakeyboard.m; path = src/video/cocoa/SDL_cocoakeyboard.m; sourceTree = SOURCE_ROOT; };
+		72F170FEF5C345FEA4A0B4F5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_drawline.c; path = src/render/software/SDL_drawline.c; sourceTree = SOURCE_ROOT; };
+		74F0940F0EEC4AD08A13AD83 /* SDL2main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL2maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7618C5C795AE45D1908793B1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendfillrect.c; path = src/render/software/SDL_blendfillrect.c; sourceTree = SOURCE_ROOT; };
+		76A740EA44C34C3D901303CE /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_scalbn.c; path = src/libm/s_scalbn.c; sourceTree = SOURCE_ROOT; };
+		7732475C43964CDC9844BD88 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_N.c; path = src/video/SDL_blit_N.c; sourceTree = SOURCE_ROOT; };
+		78957AC387C9481E8693073A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_egl.c; path = src/video/SDL_egl.c; sourceTree = SOURCE_ROOT; };
+		7A0843EC531B4005BB0500A0 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_getenv.c; path = src/stdlib/SDL_getenv.c; sourceTree = SOURCE_ROOT; };
+		7C0C8A50BE1846B68BB8F883 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gles.c; path = src/render/opengles/SDL_render_gles.c; sourceTree = SOURCE_ROOT; };
+		7C3FFADE113A4433AE30A0D0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaopengles.m; path = src/video/cocoa/SDL_cocoaopengles.m; sourceTree = SOURCE_ROOT; };
+		7D32F78FD354485595862CC6 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaevents.m; path = src/video/cocoa/SDL_cocoaevents.m; sourceTree = SOURCE_ROOT; };
+		7E1AD7A6A29E4FD8BB5BC5F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_gamecontroller.c; path = src/joystick/SDL_gamecontroller.c; sourceTree = SOURCE_ROOT; };
+		82135229F65D4101A0E70651 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullframebuffer.c; path = src/video/dummy/SDL_nullframebuffer.c; sourceTree = SOURCE_ROOT; };
+		847F4416C0EC42A6BAB90EEA /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendpoint.c; path = src/render/software/SDL_blendpoint.c; sourceTree = SOURCE_ROOT; };
+		85530727481D48BF8D4B6E4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_d3d.c; path = src/render/direct3d/SDL_render_d3d.c; sourceTree = SOURCE_ROOT; };
+		8784E9C8F3974932A4FAC73E /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8959945F28144BC590DE0BAE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_drawpoint.c; path = src/render/software/SDL_drawpoint.c; sourceTree = SOURCE_ROOT; };
+		901B0A6B6ABB467C84B0DC31 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_rwopsbundlesupport.m; path = src/file/cocoa/SDL_rwopsbundlesupport.m; sourceTree = SOURCE_ROOT; };
+		91AE2410EBD6485E984F0697 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoawindow.m; path = src/video/cocoa/SDL_cocoawindow.m; sourceTree = SOURCE_ROOT; };
+		978BBB26F8234C37AC1209E1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_sw.c; path = src/render/software/SDL_render_sw.c; sourceTree = SOURCE_ROOT; };
+		97A5DF7F79DA416480D4B7B9 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systls.c; path = src/thread/pthread/SDL_systls.c; sourceTree = SOURCE_ROOT; };
+		97B9A77099844E4D91F371A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_clipboardevents.c; path = src/events/SDL_clipboardevents.c; sourceTree = SOURCE_ROOT; };
+		9815AC86E95E4D4F808B5928 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systhread.c; path = src/thread/pthread/SDL_systhread.c; sourceTree = SOURCE_ROOT; };
+		997F75993E15455E95718AB6 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL.c; path = src/SDL.c; sourceTree = SOURCE_ROOT; };
+		9F33DA9FE7E94ADEB844848E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoashape.m; path = src/video/cocoa/SDL_cocoashape.m; sourceTree = SOURCE_ROOT; };
+		9FEF362CF6F3419489D860D1 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_keyboard.c; path = src/events/SDL_keyboard.c; sourceTree = SOURCE_ROOT; };
+		A1E2F9376DDC4A768BFF9594 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_mouse.c; path = src/events/SDL_mouse.c; sourceTree = SOURCE_ROOT; };
+		A2ACD72D755B4BCBA2D89A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysloadso.c; path = src/loadso/dlopen/SDL_sysloadso.c; sourceTree = SOURCE_ROOT; };
+		A57C94C7187A4806B92E95D9 /* /Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dynapi.c; path = src/dynapi/SDL_dynapi.c; sourceTree = SOURCE_ROOT; };
+		A8B0306F7E714E2B934B9D56 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_touch.c; path = src/events/SDL_touch.c; sourceTree = SOURCE_ROOT; };
+		ACF2B83E7A1544AEBFA842CF /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit.c; path = src/video/SDL_blit.c; sourceTree = SOURCE_ROOT; };
+		AF7D27CF393847CFB905560B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_atan.c; path = src/libm/s_atan.c; sourceTree = SOURCE_ROOT; };
+		AF8378AE4A644BA582DB9C01 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiodev.c; path = src/audio/SDL_audiodev.c; sourceTree = SOURCE_ROOT; };
+		B2DAEE33429D4AAAB9379A7A /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B51BB6E3D1C24F459EBBB8C3 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_hints.c; path = src/SDL_hints.c; sourceTree = SOURCE_ROOT; };
+		B63D6D1CC44446B09E0E1BAF /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_cos.c; path = src/libm/k_cos.c; sourceTree = SOURCE_ROOT; };
+		B66B0657DA614229AA8C977F /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syssem.c; path = src/thread/pthread/SDL_syssem.c; sourceTree = SOURCE_ROOT; };
+		B7DFC1AE594547ABB4B89405 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullvideo.c; path = src/video/dummy/SDL_nullvideo.c; sourceTree = SOURCE_ROOT; };
+		B931C269BA5445BAB1F99CFB /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiotypecvt.c; path = src/audio/SDL_audiotypecvt.c; sourceTree = SOURCE_ROOT; };
+		BBE953F5B6CA4D5FB449070B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_pow.c; path = src/libm/e_pow.c; sourceTree = SOURCE_ROOT; };
+		BCE75917D435472B81365AC1 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_slow.c; path = src/video/SDL_blit_slow.c; sourceTree = SOURCE_ROOT; };
+		BD7C3E79C7784B79BB761357 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_log.c; path = src/SDL_log.c; sourceTree = SOURCE_ROOT; };
+		C0D76587472E4262A4044302 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_copy.c; path = src/video/SDL_blit_copy.c; sourceTree = SOURCE_ROOT; };
+		C2D7F69D4143423492049579 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_rem_pio2.c; path = src/libm/e_rem_pio2.c; sourceTree = SOURCE_ROOT; };
+		C95D8BAAA2AF4C9BB8D0E27C /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiocvt.c; path = src/audio/SDL_audiocvt.c; sourceTree = SOURCE_ROOT; };
+		CE0E16F201E74DC1A133B958 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rwops.c; path = src/file/SDL_rwops.c; sourceTree = SOURCE_ROOT; };
+		CF63F0696090437DA70EA482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamodes.m; path = src/video/cocoa/SDL_cocoamodes.m; sourceTree = SOURCE_ROOT; };
+		D1A9B3E9398C4D41A9CC8252 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/metal/SDL_render_metal.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_render_metal.m; path = src/render/metal/SDL_render_metal.m; sourceTree = SOURCE_ROOT; };
+		D1F7CB5BD21F4A568C9A9C22 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_windowevents.c; path = src/events/SDL_windowevents.c; sourceTree = SOURCE_ROOT; };
+		D5FA271BD880411789B8C99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_floor.c; path = src/libm/s_floor.c; sourceTree = SOURCE_ROOT; };
+		D65D7C10487D4892A35A7333 /* /Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syspower.c; path = src/power/macosx/SDL_syspower.c; sourceTree = SOURCE_ROOT; };
+		D76E140E4D6D444182399ADA /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dropevents.c; path = src/events/SDL_dropevents.c; sourceTree = SOURCE_ROOT; };
+		D7E80534CECF4AEEB0E360D4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_displayevents.c; path = src/events/SDL_displayevents.c; sourceTree = SOURCE_ROOT; };
+		DE358C48C0BE42AD823B8A18 /* SDL2-static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE71B210E6AF4176BE201A4A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_sqrt.c; path = src/libm/e_sqrt.c; sourceTree = SOURCE_ROOT; };
+		E077F0D1A4CD4699BE89E874 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_spinlock.c; path = src/atomic/SDL_spinlock.c; sourceTree = SOURCE_ROOT; };
+		E0D4D47185C24722A185BEBE /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_coreaudio.m; path = src/audio/coreaudio/SDL_coreaudio.m; sourceTree = SOURCE_ROOT; };
+		E1F070CFAAAC477BB7324A07 /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sensor.c; path = src/sensor/SDL_sensor.c; sourceTree = SOURCE_ROOT; };
+		E3DC04D3653847988A0CC396 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_surface.c; path = src/video/SDL_surface.c; sourceTree = SOURCE_ROOT; };
+		E64ADFACE64F44BC9B303B72 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_iconv.c; path = src/stdlib/SDL_iconv.c; sourceTree = SOURCE_ROOT; };
+		E7B83CE15B8E418181464943 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_stdlib.c; path = src/stdlib/SDL_stdlib.c; sourceTree = SOURCE_ROOT; };
+		E7C3F6C5C94546C1843EACC5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendline.c; path = src/render/software/SDL_blendline.c; sourceTree = SOURCE_ROOT; };
+		E85A92644DBC4A04987723A7 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audio.c; path = src/audio/SDL_audio.c; sourceTree = SOURCE_ROOT; };
+		ED83752ADD1A4DE4B839215F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_pixels.c; path = src/video/SDL_pixels.c; sourceTree = SOURCE_ROOT; };
+		EFFE8050309D45F48858BAE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syscond.c; path = src/thread/pthread/SDL_syscond.c; sourceTree = SOURCE_ROOT; };
+		F1B905BFE50A4A77B960F454 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_d3d11.c; path = src/render/direct3d11/SDL_shaders_d3d11.c; sourceTree = SOURCE_ROOT; };
+		F3E8E5B64C5F4FF9AF577968 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_tan.c; path = src/libm/s_tan.c; sourceTree = SOURCE_ROOT; };
+		F44A5040C1AC4E03A16B9234 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_fmod.c; path = src/libm/e_fmod.c; sourceTree = SOURCE_ROOT; };
+		F44C191607764C40BBE0697F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_gles2.c; path = src/render/opengles2/SDL_shaders_gles2.c; sourceTree = SOURCE_ROOT; };
+		F4A7A2B757ED4D15AF214272 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_qsort.c; path = src/stdlib/SDL_qsort.c; sourceTree = SOURCE_ROOT; };
+		F4EF24982F2440A883765F96 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_clipboard.c; path = src/video/SDL_clipboard.c; sourceTree = SOURCE_ROOT; };
+		F63458DCD3744B80BC735502 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_malloc.c; path = src/stdlib/SDL_malloc.c; sourceTree = SOURCE_ROOT; };
+		F651A9A6026546A6BF60CEFB /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shape.c; path = src/video/SDL_shape.c; sourceTree = SOURCE_ROOT; };
+		F6FCA661FCF84F829B17C993 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysjoystick.c; path = src/joystick/darwin/SDL_sysjoystick.c; sourceTree = SOURCE_ROOT; };
+		F7C302D094254BE6B4866029 /* /Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummy_main.c; path = src/main/dummy/SDL_dummy_main.c; sourceTree = SOURCE_ROOT; };
+		FB63233BF522426AAE232F9B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_gl.c; path = src/render/opengl/SDL_shaders_gl.c; sourceTree = SOURCE_ROOT; };
+		FF897BBF594247808699B0B0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamouse.m; path = src/video/cocoa/SDL_cocoamouse.m; sourceTree = SOURCE_ROOT; };
+		FFFC31AE55BC44D2AD038A17 /* /Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_sysfilesystem.m; path = src/filesystem/cocoa/SDL_sysfilesystem.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		065352EE630945DDA461A3CA /* SDL2-static */ = {
+			isa = PBXGroup;
+			children = (
+				41BC448DEAEA4CA5A5F7B08B /* Source Files */,
+				19E29FFCB8DF418F8411AF49 /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */,
+			);
+			name = "SDL2-static";
+			sourceTree = "<group>";
+		};
+		39EE686B6C5A43A8B8CBE53C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3CCB1F371AE8466A8550E4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE358C48C0BE42AD823B8A18 /* SDL2-static */,
+				74F0940F0EEC4AD08A13AD83 /* SDL2main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BC448DEAEA4CA5A5F7B08B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				997F75993E15455E95718AB6 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL.c */,
+				70A90F5CCF5E4434A3021601 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c */,
+				4F9D511B304F438999CB2B20 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c */,
+				003C5E59D33248319888F5E5 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c */,
+				B51BB6E3D1C24F459EBBB8C3 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c */,
+				BD7C3E79C7784B79BB761357 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c */,
+				47FDA47DA323453EB6F9C393 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c */,
+				E077F0D1A4CD4699BE89E874 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c */,
+				E85A92644DBC4A04987723A7 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c */,
+				C95D8BAAA2AF4C9BB8D0E27C /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c */,
+				AF8378AE4A644BA582DB9C01 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c */,
+				B931C269BA5445BAB1F99CFB /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c */,
+				5A76752D3FD24D0690F0F82E /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c */,
+				60913D2A509546E5A567F268 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c */,
+				E0D4D47185C24722A185BEBE /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m */,
+				3FAB86147C7542F1A482A42A /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c */,
+				6F224DC47A2E421EB5BF3155 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c */,
+				1A4A9C485F6F417E87C7B9E9 /* /Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c */,
+				A57C94C7187A4806B92E95D9 /* /Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c */,
+				97B9A77099844E4D91F371A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c */,
+				D7E80534CECF4AEEB0E360D4 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c */,
+				D76E140E4D6D444182399ADA /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c */,
+				013285F3499545E7A3150FA8 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c */,
+				2C64118B412A4287891625E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c */,
+				9FEF362CF6F3419489D860D1 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c */,
+				A1E2F9376DDC4A768BFF9594 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c */,
+				58DC1BC3C12A4C988D764B3C /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c */,
+				A8B0306F7E714E2B934B9D56 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c */,
+				D1F7CB5BD21F4A568C9A9C22 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c */,
+				CE0E16F201E74DC1A133B958 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c */,
+				901B0A6B6ABB467C84B0DC31 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m */,
+				FFFC31AE55BC44D2AD038A17 /* /Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m */,
+				1782B44D14D9414BA10E23CF /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c */,
+				4A55F87D69A34125AAEDA747 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c */,
+				7E1AD7A6A29E4FD8BB5BC5F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c */,
+				3C275B608BF645AB8FFFAA20 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c */,
+				F6FCA661FCF84F829B17C993 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c */,
+				5A921FDC343B48B1BBA0A99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c */,
+				5EA18690727744BDBA4B2410 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c */,
+				F44A5040C1AC4E03A16B9234 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c */,
+				4F34676832E44252BBC90475 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c */,
+				15847EFCEAFB427E8F8339BA /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c */,
+				BBE953F5B6CA4D5FB449070B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c */,
+				C2D7F69D4143423492049579 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c */,
+				DE71B210E6AF4176BE201A4A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c */,
+				B63D6D1CC44446B09E0E1BAF /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c */,
+				71513BF9FC26447BA925164A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c */,
+				352329A445DB43738463226E /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c */,
+				553B2A3DBA6B4E2CB4EF299F /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c */,
+				AF7D27CF393847CFB905560B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c */,
+				555BCD0C976F4B85B9819531 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c */,
+				56BECB1E4E484E8388E3B6CD /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c */,
+				411129C1D7B04CE19DA43BE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c */,
+				D5FA271BD880411789B8C99A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c */,
+				76A740EA44C34C3D901303CE /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c */,
+				25D3087A6E2D483391DFC907 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c */,
+				F3E8E5B64C5F4FF9AF577968 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c */,
+				A2ACD72D755B4BCBA2D89A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c */,
+				62F2BBC7C82E40FCA624D39C /* /Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c */,
+				D65D7C10487D4892A35A7333 /* /Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c */,
+				48B7114C02224534B9E24A73 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c */,
+				091A65E1BAA54B64B86C72DD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c */,
+				0A82A6D9779E4714992FD548 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c */,
+				85530727481D48BF8D4B6E4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c */,
+				3B41F16A4B0A405AAA640744 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c */,
+				6D72F85D31514EE193289725 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c */,
+				F1B905BFE50A4A77B960F454 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c */,
+				D1A9B3E9398C4D41A9CC8252 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/metal/SDL_render_metal.m */,
+				1A45F93296404DA8875553F2 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c */,
+				FB63233BF522426AAE232F9B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c */,
+				7C0C8A50BE1846B68BB8F883 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c */,
+				5A86F0C73CBF4898BFA89C9F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c */,
+				F44C191607764C40BBE0697F /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c */,
+				1944E166D0784C199A3E5AFD /* /Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c */,
+				7618C5C795AE45D1908793B1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c */,
+				E7C3F6C5C94546C1843EACC5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c */,
+				847F4416C0EC42A6BAB90EEA /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c */,
+				72F170FEF5C345FEA4A0B4F5 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c */,
+				8959945F28144BC590DE0BAE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c */,
+				978BBB26F8234C37AC1209E1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c */,
+				0B8EC32384214314BB384A4B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c */,
+				E1F070CFAAAC477BB7324A07 /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c */,
+				4010649E373345D2BD8FF8FD /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c */,
+				7A0843EC531B4005BB0500A0 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c */,
+				E64ADFACE64F44BC9B303B72 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c */,
+				F63458DCD3744B80BC735502 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c */,
+				F4A7A2B757ED4D15AF214272 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c */,
+				E7B83CE15B8E418181464943 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c */,
+				40212A64B0D44BA2B07C426F /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c */,
+				5C6DCBE759864419BD5F7E7C /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c */,
+				EFFE8050309D45F48858BAE2 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c */,
+				42995BBC1DD84CF58628162E /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c */,
+				B66B0657DA614229AA8C977F /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c */,
+				9815AC86E95E4D4F808B5928 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c */,
+				97A5DF7F79DA416480D4B7B9 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c */,
+				1308A5725C144E8DBBC54D0C /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c */,
+				55E750EA68FE4201BFC62BB0 /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c */,
+				4234BA2C270344C49BE2A879 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c */,
+				ACF2B83E7A1544AEBFA842CF /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c */,
+				4922F0DD63A04474BE959B95 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c */,
+				56E7FD45604F4D5FB0DCB2F9 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c */,
+				5F15AA5745E348A1B74D77C0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c */,
+				7732475C43964CDC9844BD88 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c */,
+				3E85F2C693EE4D3E88F88F09 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c */,
+				C0D76587472E4262A4044302 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c */,
+				BCE75917D435472B81365AC1 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c */,
+				3FC03EC8CB8B4C76B3222C75 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c */,
+				F4EF24982F2440A883765F96 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c */,
+				78957AC387C9481E8693073A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c */,
+				30B6BBFB23D74653BECB06A4 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c */,
+				ED83752ADD1A4DE4B839215F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c */,
+				4BB635C98C324D52B557D361 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c */,
+				F651A9A6026546A6BF60CEFB /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c */,
+				4C0A6017E5D248F9A2AD1E54 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c */,
+				E3DC04D3653847988A0CC396 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c */,
+				0913884DF3094E6B926959E0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c */,
+				59875707313A4E8D8AC56482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c */,
+				5A4F529CFD1D4CD4A3E0CA6A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c */,
+				20C97172EB3B4DE898E02224 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m */,
+				7D32F78FD354485595862CC6 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m */,
+				729410568A7445A3B346AE06 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m */,
+				51444A8E38034D039AEC7D7C /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m */,
+				6EF7DEDCBE994F319F26198F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m */,
+				CF63F0696090437DA70EA482 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m */,
+				FF897BBF594247808699B0B0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m */,
+				3439FE8FAE3C48348A150784 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m */,
+				36F9DB5F3ECC4D1DA201C68F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m */,
+				7C3FFADE113A4433AE30A0D0 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m */,
+				9F33DA9FE7E94ADEB844848E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m */,
+				261B5FA9902349D7B670FB48 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m */,
+				6C6896B6169E4121A7131D98 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m */,
+				91AE2410EBD6485E984F0697 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m */,
+				045F7607C7C34D7390A711D8 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c */,
+				82135229F65D4101A0E70651 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c */,
+				B7DFC1AE594547ABB4B89405 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c */,
+				46528B6D3D134ACD907C1ECA /* /Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4C53070BC2FC4F56AF6948CA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C302D094254BE6B4866029 /* /Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		70EFDC854C874615ABCAC85D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8F0D6D6084FD481CABC0EEEC /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				39EE686B6C5A43A8B8CBE53C /* CMake Rules */,
+				375C1284D78D4A049EDC55DE /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		9B4CC9A587D046E09FC99552 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				70EFDC854C874615ABCAC85D /* CMake Rules */,
+				8784E9C8F3974932A4FAC73E /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C327A355AFD9456CBEB1296C /* SDL2main */ = {
+			isa = PBXGroup;
+			children = (
+				4C53070BC2FC4F56AF6948CA /* Source Files */,
+				B2DAEE33429D4AAAB9379A7A /* /Users/kiki/dev/slay/contrib/sdl2/CMakeLists.txt */,
+			);
+			name = SDL2main;
+			sourceTree = "<group>";
+		};
+		DCAC5626789B4543A59D9C89 = {
+			isa = PBXGroup;
+			children = (
+				8F0D6D6084FD481CABC0EEEC /* uninstall */,
+				065352EE630945DDA461A3CA /* SDL2-static */,
+				C327A355AFD9456CBEB1296C /* SDL2main */,
+				9B4CC9A587D046E09FC99552 /* ALL_BUILD */,
+				3CCB1F371AE8466A8550E4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B4CFCB4507455CA0E78004 /* SDL2-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E106501B6D04D738B349F5A /* Build configuration list for PBXNativeTarget "SDL2-static" */;
+			buildPhases = (
+				6FA78C3E3A4B4CBA98A94502 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76077CC8C6EC49E1948926D3 /* PBXTargetDependency */,
+			);
+			name = "SDL2-static";
+			productName = "SDL2-static";
+			productReference = DE358C48C0BE42AD823B8A18 /* SDL2-static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEC23D41241642BC8FEAEFF3 /* SDL2main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1513D9EB6186477599D2CA96 /* Build configuration list for PBXNativeTarget "SDL2main" */;
+			buildPhases = (
+				D62019BF901B471EBE18C9F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C035834B462049E6B9D7E84F /* PBXTargetDependency */,
+			);
+			name = SDL2main;
+			productName = SDL2main;
+			productReference = 74F0940F0EEC4AD08A13AD83 /* SDL2main */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E04BCBE92484F44BDA8E13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 36AB7D0099404DEC93984244 /* Build configuration list for PBXProject "SDL2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				987F5D378FDA4E1BA16FB239 /* Debug */,
+				B9A8CB9588E447EC9833EC89 /* Release */,
+				4CCCD666AFBB44B18CAD30CD /* MinSizeRel */,
+				3BBBF7E8E5374C479B111C9C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DCAC5626789B4543A59D9C89;
+			projectDirPath = ../../../contrib/sdl2;
+			projectRoot = "";
+			targets = (
+				9D1E625540B34366B9E615F9 /* ALL_BUILD */,
+				46B4CFCB4507455CA0E78004 /* SDL2-static */,
+				EEC23D41241642BC8FEAEFF3 /* SDL2main */,
+				F1682E4C412D49168E0E681E /* ZERO_CHECK */,
+				FC1BEB996D8A451798BF5FA6 /* install */,
+				13BEED47C35344E4BE6675E5 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		035BAC54C9F145D5BF49E45E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/contrib/sdl2 -f /Users/kiki/dev/slay/build_debug/contrib/sdl2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		06AD49708090434F9BD60516 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2560B583466049BDB4AF46DB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/contrib/sdl2 -f /Users/kiki/dev/slay/build_debug/contrib/sdl2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2E1F6C3A562F46E38AF80AB7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/contrib/sdl2 -f /Users/kiki/dev/slay/build_debug/contrib/sdl2/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4A38D8128BED44DDA733B89F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7665CACB1EC244C7B039EF49 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C2F3CFCB6B5A4C378E069AB4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/contrib/sdl2 -f /Users/kiki/dev/slay/build_debug/contrib/sdl2/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F8E6D727E5974BF59CD5534D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA78C3E3A4B4CBA98A94502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A300DD62D70042768B895F25 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL.c */,
+				4989EBD94A8B46FD85B53319 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_assert.c */,
+				67A347B85FCD4A31870759E8 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_dataqueue.c */,
+				65B9EAC6239C435A962FA8AC /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_error.c */,
+				E10D7BA7E2B34BC7AE23C3A6 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_hints.c */,
+				ED0E93F495F84E85A8FF51F8 /* /Users/kiki/dev/slay/contrib/sdl2/src/SDL_log.c */,
+				88E25A7C3EB54FA192CC3A67 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_atomic.c */,
+				345A18D039D449069098D7D5 /* /Users/kiki/dev/slay/contrib/sdl2/src/atomic/SDL_spinlock.c */,
+				6AC48C700A9241E987D50547 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audio.c */,
+				04163427F059493A83BADCAD /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiocvt.c */,
+				F96F953421AB495E8CC81F04 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiodev.c */,
+				0DCA3322BCEF48E2AA0C7747 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_audiotypecvt.c */,
+				6A901EB2CBE44992B32121AA /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_mixer.c */,
+				F9557587D85E4EC5A318866F /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/SDL_wave.c */,
+				80CB2A82560142E09AD65F27 /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/coreaudio/SDL_coreaudio.m */,
+				CFE284EAD208478F9CF7DC9C /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/disk/SDL_diskaudio.c */,
+				735A7F54F03D47B1A4E0961B /* /Users/kiki/dev/slay/contrib/sdl2/src/audio/dummy/SDL_dummyaudio.c */,
+				3D4505F29E664494979ED5F3 /* /Users/kiki/dev/slay/contrib/sdl2/src/cpuinfo/SDL_cpuinfo.c */,
+				241807F5A92B404DB3A0B061 /* /Users/kiki/dev/slay/contrib/sdl2/src/dynapi/SDL_dynapi.c */,
+				AB54365F81524EBEA33051FE /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_clipboardevents.c */,
+				70921AAD7CA2489688404047 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_displayevents.c */,
+				F892741A252342EEBCE44684 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_dropevents.c */,
+				9487B7EA025C401C83C5A363 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_events.c */,
+				0037C8C2D156472EBAC098F6 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_gesture.c */,
+				1BDC4259A02C4A918492EA23 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_keyboard.c */,
+				A5E9361403BF458095C27738 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_mouse.c */,
+				5B9BBB82606B44CEA2DF544F /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_quit.c */,
+				442F3858122045A7AE2CE6C3 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_touch.c */,
+				15DDD04287F04B9CA8349F99 /* /Users/kiki/dev/slay/contrib/sdl2/src/events/SDL_windowevents.c */,
+				6F67D0B8E52C4FC7AB74595E /* /Users/kiki/dev/slay/contrib/sdl2/src/file/SDL_rwops.c */,
+				4FCD7833DCB0491DB11EB4D8 /* /Users/kiki/dev/slay/contrib/sdl2/src/file/cocoa/SDL_rwopsbundlesupport.m */,
+				9BD5BBECC5C24B3EA248F912 /* /Users/kiki/dev/slay/contrib/sdl2/src/filesystem/cocoa/SDL_sysfilesystem.m */,
+				6CBE7AC4CD3845D3A2DAEC63 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/SDL_haptic.c */,
+				84E67517AE944F229B00D486 /* /Users/kiki/dev/slay/contrib/sdl2/src/haptic/darwin/SDL_syshaptic.c */,
+				E1DD1BD0CEA74DA5B069CBD8 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_gamecontroller.c */,
+				16D88AE194FA484A807EE20C /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/SDL_joystick.c */,
+				B224EC0EA4CC40B99D8EF063 /* /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c */,
+				ADFBB8C01547498DA81B5C39 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_atan2.c */,
+				45B0223B9D9B418C8130A1F9 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_exp.c */,
+				C10477BBC11D4E259C4864DA /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_fmod.c */,
+				045E0DF881404E3A9199F55A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log.c */,
+				24E0839DA2AB4C5D8A6CF88B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_log10.c */,
+				046F9B35625D4BB5B3D8AAC4 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_pow.c */,
+				0E91FD9AED09441EA51AE8A6 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_rem_pio2.c */,
+				BAC8DC5C266D487896BB44CD /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/e_sqrt.c */,
+				F8B67E8E92E9445C91C34A48 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_cos.c */,
+				5BD59E5F422F489788ED40F0 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_rem_pio2.c */,
+				87F86C88B320442E990FC223 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_sin.c */,
+				4743853C82F3420CB30352AE /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/k_tan.c */,
+				BA59FF4C9AE549C6B30D2ED9 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_atan.c */,
+				2B38A91174B64F61B60F478B /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_copysign.c */,
+				281A2CC68AF947C6BE3F0E5A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_cos.c */,
+				368832E0E4DF4C008951B9C8 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_fabs.c */,
+				373B8275CF4A4A91AA3D94D2 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_floor.c */,
+				3669306E656A45F096334A4F /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_scalbn.c */,
+				61168F620458476794F5A18A /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_sin.c */,
+				72FE0F4A5A0C4717A6DA2D12 /* /Users/kiki/dev/slay/contrib/sdl2/src/libm/s_tan.c */,
+				39F0F06316DA41D8A81EBCC4 /* /Users/kiki/dev/slay/contrib/sdl2/src/loadso/dlopen/SDL_sysloadso.c */,
+				693D0B88B8E34DBEA8630C7D /* /Users/kiki/dev/slay/contrib/sdl2/src/power/SDL_power.c */,
+				F9B5A554EDCC49DFB30E0C06 /* /Users/kiki/dev/slay/contrib/sdl2/src/power/macosx/SDL_syspower.c */,
+				DB5C1540183B4EA9A19D1EE6 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_d3dmath.c */,
+				B54970A326CE4EBDB076E1EB /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_render.c */,
+				AD9B343E135547F2936EAFD8 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/SDL_yuv_sw.c */,
+				FC6B1C7779754991927F1122 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_render_d3d.c */,
+				F74D0E0D24454C66B833183A /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d/SDL_shaders_d3d.c */,
+				D08376FB5A9C41EF90358F57 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_render_d3d11.c */,
+				DB9E663395D24AD5945CBA46 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/direct3d11/SDL_shaders_d3d11.c */,
+				7DB0230034834615B4924BE7 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/metal/SDL_render_metal.m */,
+				766B8C47EFE84A5484B5B833 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_render_gl.c */,
+				6CA6CB86598C4292B501B061 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengl/SDL_shaders_gl.c */,
+				C3EE1ADC7145453EA0AE074B /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles/SDL_render_gles.c */,
+				D513089558324891BE4993BF /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_render_gles2.c */,
+				95BBB757860E46099BBB88B2 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/opengles2/SDL_shaders_gles2.c */,
+				9C2A9A637E34483DB2C2D17C /* /Users/kiki/dev/slay/contrib/sdl2/src/render/psp/SDL_render_psp.c */,
+				8750E034823F46B7A9C674FE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendfillrect.c */,
+				C79D414A80AA49BBA4A184A1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendline.c */,
+				09E07B75B7AB46F98F22B6B8 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_blendpoint.c */,
+				548FE525CBAF4B7EA023BBE0 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawline.c */,
+				2DCBC3AC5FCB4064A98A15F1 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_drawpoint.c */,
+				5AF2C2477F21476B80149CB6 /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_render_sw.c */,
+				1A5765D04470403995E707CE /* /Users/kiki/dev/slay/contrib/sdl2/src/render/software/SDL_rotate.c */,
+				9E4BE1A9BD9F413D964E8A03 /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/SDL_sensor.c */,
+				B04640C539D64139A859420F /* /Users/kiki/dev/slay/contrib/sdl2/src/sensor/dummy/SDL_dummysensor.c */,
+				B268F4280E864745A31CD79C /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_getenv.c */,
+				DFD6E4EFEE6448E0A2C192A9 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_iconv.c */,
+				16652C7B4AE043D5AC1BD4C6 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_malloc.c */,
+				0271C1F28A5D41AE9AED2947 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_qsort.c */,
+				934F5CAAA1A8478E88A51805 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_stdlib.c */,
+				0C983381711F4624BCEEE1E5 /* /Users/kiki/dev/slay/contrib/sdl2/src/stdlib/SDL_string.c */,
+				5083739520D14AE9A8E31B26 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/SDL_thread.c */,
+				A2E6EB442E4D42EA91570A59 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syscond.c */,
+				4D3DAB37C6D641F19B888F82 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_sysmutex.c */,
+				967FD7474A3F4D9891F824DD /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_syssem.c */,
+				1E3726E5E03F48CC9D3B04F6 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c */,
+				055790B89ED540028DC3BC16 /* /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systls.c */,
+				A2219F7CB60F4E5188DB3223 /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/SDL_timer.c */,
+				0F087E076BF74EE69EA827EA /* /Users/kiki/dev/slay/contrib/sdl2/src/timer/unix/SDL_systimer.c */,
+				521702314FAD46D8A0B96777 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_RLEaccel.c */,
+				C1296628D82D498E9FEA34FD /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit.c */,
+				BFEC60A9FF5640D9BCC49F75 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_0.c */,
+				E0976EF48F764B17BD85B22A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_1.c */,
+				F290E3EE8B174742AD7FB969 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_A.c */,
+				B390E0F90DF647E887CF5A1D /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_N.c */,
+				B87688ACE0214CA794E1F005 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_auto.c */,
+				44FC4ACFDD2149FBB575F0DA /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_copy.c */,
+				2F9B6F519C1842EFB8047D1B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_blit_slow.c */,
+				77688B76ABE948B7B4D450A3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_bmp.c */,
+				3FDB79AEA49242A089FFDA80 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_clipboard.c */,
+				457CF33DC1704E5BA7FFBAF3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_egl.c */,
+				219DB9C882604E16AAD6F4AB /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_fillrect.c */,
+				C92A7DF9809D468CB14D1E4A /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_pixels.c */,
+				8DDDCBC0E8FE4E85A727EE41 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_rect.c */,
+				D10B546942EF4F78A5B0B87E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_shape.c */,
+				9B7BB9749F8F4BDD98D359D3 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_stretch.c */,
+				ECB48B6B9F3546E2B2C4D912 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_surface.c */,
+				C40B8A5D612945D38BEBECA8 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_video.c */,
+				3FD70DD0D9CB47639675156F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_vulkan_utils.c */,
+				2A4390C70CE14D48BD9AAC3B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/SDL_yuv.c */,
+				286752C6E8B1465B9636DC42 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaclipboard.m */,
+				80D60BF72BEB4A3BA14D611F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaevents.m */,
+				CAE503DB0A36405FB6701668 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoakeyboard.m */,
+				2EF30D2C6FDA4356843DA228 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamessagebox.m */,
+				00254F593DE7438B81E9833D /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoametalview.m */,
+				0F8C09A622464F6AAB5435A7 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamodes.m */,
+				D7A61E78EC1849B1BFF0D76F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamouse.m */,
+				64A83763C8344E2B92009833 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoamousetap.m */,
+				4C6D0D0852584D3EA08CC3CE /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengl.m */,
+				670A4E015F694020B2CA0480 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoaopengles.m */,
+				F1E4CBEA7A1B4610B8115541 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoashape.m */,
+				1D97AAF45B9A47608547E270 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavideo.m */,
+				AA9ED2085A0446E48234725B /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoavulkan.m */,
+				824F63B9144841259A6D880F /* /Users/kiki/dev/slay/contrib/sdl2/src/video/cocoa/SDL_cocoawindow.m */,
+				4D706C0ADAD74475BB68364C /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullevents.c */,
+				11E0080B69A040F6B090047E /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullframebuffer.c */,
+				8B51E22FE17647C38EE2E1E9 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/dummy/SDL_nullvideo.c */,
+				2D02F21728AD4DCC806ACEB4 /* /Users/kiki/dev/slay/contrib/sdl2/src/video/yuv2rgb/yuv_rgb.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62019BF901B471EBE18C9F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5F34D5AA644CAFB0A2779B /* /Users/kiki/dev/slay/contrib/sdl2/src/main/dummy/SDL_dummy_main.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044CE5F638F04D3BA407F795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = 2E24A7AB198B4582848C3A79 /* PBXContainerItemProxy */;
+		};
+		3F65C6F10DF34598BDB365AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1E625540B34366B9E615F9 /* ALL_BUILD */;
+			targetProxy = 09DFFCEDAE164CCCA2695194 /* PBXContainerItemProxy */;
+		};
+		6B6F58ACC71C4CB8BB991C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B4CFCB4507455CA0E78004 /* SDL2-static */;
+			targetProxy = 8EB23E0B0EBC423498719A96 /* PBXContainerItemProxy */;
+		};
+		76077CC8C6EC49E1948926D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = 1DF8346B83954A928079B5BC /* PBXContainerItemProxy */;
+		};
+		A6729D8CF00B4E39A4892C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC23D41241642BC8FEAEFF3 /* SDL2main */;
+			targetProxy = DFAFD825703D4B38BAE377A6 /* PBXContainerItemProxy */;
+		};
+		B74E1D536F8F4F63A420D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = E302B55EBF134765B5328BCB /* PBXContainerItemProxy */;
+		};
+		C035834B462049E6B9D7E84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = C976FDDF80EE4C49AE4AFC42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		087EC38FD9694F17906466B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2/build;
+			};
+			name = RelWithDebInfo;
+		};
+		155AF137B7BA4BEA83157086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		17B7BEE51DD34E0B8B651004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2/build;
+			};
+			name = Release;
+		};
+		1D484896A0FD498CAD1EC9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1D64DB6E9FA243B9BA6F79AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		26793256B7DD4FAC92778D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2899D423139E488189192CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3C791D4B5A4244BDA21165B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall         -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3CB367AF4E7247BA9DE0012C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D74E2CC1FF641F79294D980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5366B4AB39D744369B415FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		649C94C6D428430A8FA8CFC5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		782BC92C75484E91949FF174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7EE2061B1C684D55B9486034 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2/build;
+			};
+			name = MinSizeRel;
+		};
+		91E4BF31DAF04B9FA9CDFF44 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9321CDD418284CF38FF5B578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AE70E96D132A418FBCCD9F4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall         -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B0D2C576C71949E3B93C1985 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B4A2F47303094B2CBE407E09 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7529FEB70EC4BBE8A6F7D5A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CBE17D2217274395ADA934FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2/build;
+			};
+			name = Debug;
+		};
+		CE164CBD427F44048AE14AC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EAB8E8979A2E47B0BC981BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ECE704D89C1C4D74839E611F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EE9D72124F3248838BCFE3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall     -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EED8E83FFBC84CFB9B20FA68 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3C11C4813884167912E12AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F957EBEF47A6430E85A8E585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/build_debug/contrib/sdl2/include,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/kiki/dev/slay/contrib/sdl2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/contrib/sdl2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEFF4B9F02B4F40BBD7715E /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155AF137B7BA4BEA83157086 /* Debug */,
+				4D74E2CC1FF641F79294D980 /* Release */,
+				649C94C6D428430A8FA8CFC5 /* MinSizeRel */,
+				CE164CBD427F44048AE14AC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1513D9EB6186477599D2CA96 /* Build configuration list for PBXNativeTarget "SDL2main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9321CDD418284CF38FF5B578 /* Debug */,
+				782BC92C75484E91949FF174 /* Release */,
+				1D64DB6E9FA243B9BA6F79AA /* MinSizeRel */,
+				AE70E96D132A418FBCCD9F4B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36AB7D0099404DEC93984244 /* Build configuration list for PBXProject "SDL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE17D2217274395ADA934FC /* Debug */,
+				17B7BEE51DD34E0B8B651004 /* Release */,
+				7EE2061B1C684D55B9486034 /* MinSizeRel */,
+				087EC38FD9694F17906466B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7E56C52314004ACCBFE63F4B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5366B4AB39D744369B415FC0 /* Debug */,
+				26793256B7DD4FAC92778D8A /* Release */,
+				B0D2C576C71949E3B93C1985 /* MinSizeRel */,
+				3CB367AF4E7247BA9DE0012C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E106501B6D04D738B349F5A /* Build configuration list for PBXNativeTarget "SDL2-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9D72124F3248838BCFE3FC /* Debug */,
+				F957EBEF47A6430E85A8E585 /* Release */,
+				EED8E83FFBC84CFB9B20FA68 /* MinSizeRel */,
+				3C791D4B5A4244BDA21165B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0CEE62D142A4E969288FD8F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D484896A0FD498CAD1EC9D1 /* Debug */,
+				EAB8E8979A2E47B0BC981BC6 /* Release */,
+				C7529FEB70EC4BBE8A6F7D5A /* MinSizeRel */,
+				ECE704D89C1C4D74839E611F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBB02D3DA09F45FF9ADB9A71 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C11C4813884167912E12AC /* Debug */,
+				2899D423139E488189192CCA /* Release */,
+				B4A2F47303094B2CBE407E09 /* MinSizeRel */,
+				91E4BF31DAF04B9FA9CDFF44 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E04BCBE92484F44BDA8E13B /* Project object */;
+}

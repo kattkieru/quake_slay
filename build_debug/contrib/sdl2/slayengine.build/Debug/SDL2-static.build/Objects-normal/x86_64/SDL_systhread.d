@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/SDL_systhread.c \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../../SDL_internal.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../../dynapi/SDL_dynapi.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/kiki/dev/slay/build_debug/contrib/sdl2/include/SDL_config.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_platform.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/begin_code.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/close_code.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_system.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_stdinc.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_config.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_keyboard.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_error.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_keycode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_scancode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_video.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_pixels.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_endian.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_rect.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_rwops.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_surface.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_blendmode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_render.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_log.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_thread.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_atomic.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_mutex.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../SDL_thread_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../pthread/SDL_systhread_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../../SDL_error_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../.././SDL_internal.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/thread/pthread/../SDL_systhread.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_assert.h

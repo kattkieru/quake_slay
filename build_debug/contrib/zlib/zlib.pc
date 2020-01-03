@@ -1,0 +1,13 @@
+prefix=/Users/kiki/dev/slay
+exec_prefix=/Users/kiki/dev/slay
+libdir=/Users/kiki/dev/slay/lib
+sharedlibdir=/Users/kiki/dev/slay/lib
+includedir=/Users/kiki/dev/slay/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

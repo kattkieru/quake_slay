@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kiki/dev/slay/contrib/stb_image/stb_image.c
+stb_image.h
+/Users/kiki/dev/slay/contrib/stb_image/stb_image.h
+math.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+assert.h
+-
+stdarg.h
+-
+
+/Users/kiki/dev/slay/contrib/stb_image/stb_image.h
+stdio.h
+-
+

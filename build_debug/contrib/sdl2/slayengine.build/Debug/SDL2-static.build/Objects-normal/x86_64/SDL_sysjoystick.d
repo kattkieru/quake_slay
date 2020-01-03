@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick.c \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../../SDL_internal.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../../dynapi/SDL_dynapi.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/kiki/dev/slay/build_debug/contrib/sdl2/include/SDL_config.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_platform.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/begin_code.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/close_code.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_events.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_stdinc.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_config.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_error.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_video.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_pixels.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_endian.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_rect.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_rwops.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_surface.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_blendmode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_keyboard.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_keycode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_scancode.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_mouse.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_joystick.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_gamecontroller.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_quit.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_gesture.h \
+  /Users/kiki/dev/slay/contrib/sdl2/include/SDL_touch.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../SDL_sysjoystick.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../SDL_joystick_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/SDL_sysjoystick_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../hidapi/SDL_hidapijoystick_c.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../hidapi/../../SDL_internal.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../hidapi/../../hidapi/hidapi/hidapi.h \
+  /Users/kiki/dev/slay/contrib/sdl2/src/joystick/darwin/../../haptic/darwin/SDL_syshaptic_c.h

@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D1E625540B34366B9E615F9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A43A25ED5362493AB2A521AF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				88861955D4314DC8929B3381 /* CMake Rules */,
+			);
+			dependencies = (
+				C8FF4E4C6D1741478C4E201E /* PBXTargetDependency */,
+				ECD326ABC29840ADAD4BAE51 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F1682E4C412D49168E0E681E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ED83B3FD74BA4EE886BABF3D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FC12AD2D57C2412491252CE3 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FC1BEB996D8A451798BF5FA6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9BEBFF8628C048939B1A7C9A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				B94B4569106E4A3A9CB80DC5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B82319A2CC24412C8AD9020C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1EE0D2DEEAD94003A739693D /* /Users/kiki/dev/slay/src/q3bsp/Q3BspMap.cpp */ = {isa = PBXBuildFile; fileRef = 86E4E1BD3E0E450380620F73 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspMap.cpp */; };
+		2B5F06FF527C437ABA6EBD72 /* /Users/kiki/dev/slay/src/Application.cpp */ = {isa = PBXBuildFile; fileRef = 9CC01B9E45C84887978AF020 /* /Users/kiki/dev/slay/src/Application.cpp */; };
+		3845B89752784DDE84E197B8 /* /Users/kiki/dev/slay/src/renderer/CameraDirector.cpp */ = {isa = PBXBuildFile; fileRef = 96C32DEE1084417C9A970D18 /* /Users/kiki/dev/slay/src/renderer/CameraDirector.cpp */; };
+		44834D54843A4B81ACAAB1AF /* /Users/kiki/dev/slay/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3DEAF7B3377B46BA80CED5F2 /* /Users/kiki/dev/slay/src/CMakeLists.txt */; };
+		4743C831B6B547E1950AF88C /* /Users/kiki/dev/slay/src/ThreadProcessor.cpp */ = {isa = PBXBuildFile; fileRef = 0298132ADE284F868CB0630F /* /Users/kiki/dev/slay/src/ThreadProcessor.cpp */; };
+		55E3C22B0B23464695E419BC /* /Users/kiki/dev/slay/src/InputHandlers.cpp */ = {isa = PBXBuildFile; fileRef = 9369087515A54307B6E0DCD3 /* /Users/kiki/dev/slay/src/InputHandlers.cpp */; };
+		6426C338BE37437BAB8526B6 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspStatsUI.cpp */ = {isa = PBXBuildFile; fileRef = CB0FCDE99EB647E786088D08 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspStatsUI.cpp */; };
+		6511069143A34F6DB8E8CCFD /* /Users/kiki/dev/slay/src/Math.cpp */ = {isa = PBXBuildFile; fileRef = DE42EEB839B64604B1284C30 /* /Users/kiki/dev/slay/src/Math.cpp */; };
+		6D370AF6A3014470A235294A /* /Users/kiki/dev/slay/src/renderer/vulkan/VkMemAlloc.cpp */ = {isa = PBXBuildFile; fileRef = DEC3091EACDC4CCD8EB64F24 /* /Users/kiki/dev/slay/src/renderer/vulkan/VkMemAlloc.cpp */; };
+		71C794DCF5A94A54872A0B3F /* /Users/kiki/dev/slay/src/renderer/vulkan/Base.cpp */ = {isa = PBXBuildFile; fileRef = 44EC4B8A57F8436791624BF3 /* /Users/kiki/dev/slay/src/renderer/vulkan/Base.cpp */; };
+		737BB324CAC244C683C928C4 /* /Users/kiki/dev/slay/src/renderer/GameTexture.cpp */ = {isa = PBXBuildFile; fileRef = 3C3F26E1E6524EF6A79767BB /* /Users/kiki/dev/slay/src/renderer/GameTexture.cpp */; };
+		76F7C6BE57BB4B61BA0B711A /* /Users/kiki/dev/slay/src/renderer/vulkan/Validation.cpp */ = {isa = PBXBuildFile; fileRef = 00BF0D537A4A4F849F621B90 /* /Users/kiki/dev/slay/src/renderer/vulkan/Validation.cpp */; };
+		86CA38DA15E74C1DAC774BAD /* /Users/kiki/dev/slay/src/Frustum.cpp */ = {isa = PBXBuildFile; fileRef = 4D84DCA22825449CAD5C55C6 /* /Users/kiki/dev/slay/src/Frustum.cpp */; };
+		8E3E10F8F8BC46A9B60D11A8 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspLoader.cpp */ = {isa = PBXBuildFile; fileRef = 0A71968C0961472DA6A9049D /* /Users/kiki/dev/slay/src/q3bsp/Q3BspLoader.cpp */; };
+		909B1B4D2A3E4ED3B9FBC2DA /* /Users/kiki/dev/slay/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 9FF78CB17A0B4455886ED314 /* /Users/kiki/dev/slay/src/main.cpp */; };
+		9A946191D9844E2F9EF6DC3A /* /Users/kiki/dev/slay/src/renderer/vulkan/CmdBuffer.cpp */ = {isa = PBXBuildFile; fileRef = C342913FE56E4DA981BCA11F /* /Users/kiki/dev/slay/src/renderer/vulkan/CmdBuffer.cpp */; };
+		A2FC9099F8414A95979FC3D1 /* /Users/kiki/dev/slay/src/renderer/RenderContext.cpp */ = {isa = PBXBuildFile; fileRef = 6BF04C6010154D158B4ABF7F /* /Users/kiki/dev/slay/src/renderer/RenderContext.cpp */; };
+		AE9CEB24DBFB461487958DFB /* /Users/kiki/dev/slay/src/Utils.cpp */ = {isa = PBXBuildFile; fileRef = 154FC3AE24B4417D8B208FFD /* /Users/kiki/dev/slay/src/Utils.cpp */; };
+		C9B0596E61174BF8B220CCC5 /* /Users/kiki/dev/slay/src/renderer/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 79C9F6D145344DA39F04EDC2 /* /Users/kiki/dev/slay/src/renderer/Camera.cpp */; };
+		D383FAAA89D9460D9CC42076 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspPatch.cpp */ = {isa = PBXBuildFile; fileRef = 715A532F8BE047E9B53C85C0 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspPatch.cpp */; };
+		D52D3DB7F7A34B708FA5E6A3 /* /Users/kiki/dev/slay/src/renderer/Font.cpp */ = {isa = PBXBuildFile; fileRef = 15175D508ED946729CA6CCEF /* /Users/kiki/dev/slay/src/renderer/Font.cpp */; };
+		DFCEB3E8776F43068D69EDD4 /* /Users/kiki/dev/slay/src/renderer/vulkan/Image.cpp */ = {isa = PBXBuildFile; fileRef = F40E57F97D4C41198760CE5D /* /Users/kiki/dev/slay/src/renderer/vulkan/Image.cpp */; };
+		E1928354CB42475B82EF9DFC /* /Users/kiki/dev/slay/src/renderer/vulkan/Pipeline.cpp */ = {isa = PBXBuildFile; fileRef = C7328BF70C254AA686253D33 /* /Users/kiki/dev/slay/src/renderer/vulkan/Pipeline.cpp */; };
+		E77597AE13B54D5EBCAD0556 /* /Users/kiki/dev/slay/src/renderer/vulkan/Buffers.cpp */ = {isa = PBXBuildFile; fileRef = DA440B709969451B8665A7A8 /* /Users/kiki/dev/slay/src/renderer/vulkan/Buffers.cpp */; };
+		E9FCE44BF5464BCF92379F3D /* /Users/kiki/dev/slay/src/renderer/TextureManager.cpp */ = {isa = PBXBuildFile; fileRef = 57028B490D844551A701CC08 /* /Users/kiki/dev/slay/src/renderer/TextureManager.cpp */; };
+		F19A7729F9C041D0A6AFA96F /* /Users/kiki/dev/slay/src/StringHelpers.cpp */ = {isa = PBXBuildFile; fileRef = 8FE7B2C996AD451A90AD5AF0 /* /Users/kiki/dev/slay/src/StringHelpers.cpp */; };
+		FA55A6973DC0419C8A043970 /* /Users/kiki/dev/slay/src/renderer/vulkan/Device.cpp */ = {isa = PBXBuildFile; fileRef = 334740ACEBEB4F5C9E8055CF /* /Users/kiki/dev/slay/src/renderer/vulkan/Device.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0C0AAD57671249C19297B3CC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		85529F070C5A417385C9BC73 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EB561C1CE81140CFA65A7D9A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F36E7F672F104BDC8FDF370C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		682899C5A4A548008DBD6157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE243226C30F4EFDACE63BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1E625540B34366B9E615F9;
+			remoteInfo = ALL_BUILD;
+		};
+		A98B629C76A14542B9ECF63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE243226C30F4EFDACE63BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+		D4D506326C524E08972CB2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE243226C30F4EFDACE63BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A89082952D648FF8337ACB8;
+			remoteInfo = slay;
+		};
+		E2102703092F4AE5B569C915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE243226C30F4EFDACE63BAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1682E4C412D49168E0E681E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BF0D537A4A4F849F621B90 /* /Users/kiki/dev/slay/src/renderer/vulkan/Validation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Validation.cpp; path = renderer/vulkan/Validation.cpp; sourceTree = SOURCE_ROOT; };
+		0298132ADE284F868CB0630F /* /Users/kiki/dev/slay/src/ThreadProcessor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadProcessor.cpp; path = ThreadProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		0A71968C0961472DA6A9049D /* /Users/kiki/dev/slay/src/q3bsp/Q3BspLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Q3BspLoader.cpp; path = q3bsp/Q3BspLoader.cpp; sourceTree = SOURCE_ROOT; };
+		15175D508ED946729CA6CCEF /* /Users/kiki/dev/slay/src/renderer/Font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Font.cpp; path = renderer/Font.cpp; sourceTree = SOURCE_ROOT; };
+		154FC3AE24B4417D8B208FFD /* /Users/kiki/dev/slay/src/Utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Utils.cpp; path = Utils.cpp; sourceTree = SOURCE_ROOT; };
+		334740ACEBEB4F5C9E8055CF /* /Users/kiki/dev/slay/src/renderer/vulkan/Device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Device.cpp; path = renderer/vulkan/Device.cpp; sourceTree = SOURCE_ROOT; };
+		3C3F26E1E6524EF6A79767BB /* /Users/kiki/dev/slay/src/renderer/GameTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GameTexture.cpp; path = renderer/GameTexture.cpp; sourceTree = SOURCE_ROOT; };
+		3DEAF7B3377B46BA80CED5F2 /* /Users/kiki/dev/slay/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		44EC4B8A57F8436791624BF3 /* /Users/kiki/dev/slay/src/renderer/vulkan/Base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Base.cpp; path = renderer/vulkan/Base.cpp; sourceTree = SOURCE_ROOT; };
+		4D84DCA22825449CAD5C55C6 /* /Users/kiki/dev/slay/src/Frustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Frustum.cpp; path = Frustum.cpp; sourceTree = SOURCE_ROOT; };
+		57028B490D844551A701CC08 /* /Users/kiki/dev/slay/src/renderer/TextureManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureManager.cpp; path = renderer/TextureManager.cpp; sourceTree = SOURCE_ROOT; };
+		6BF04C6010154D158B4ABF7F /* /Users/kiki/dev/slay/src/renderer/RenderContext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderContext.cpp; path = renderer/RenderContext.cpp; sourceTree = SOURCE_ROOT; };
+		715A532F8BE047E9B53C85C0 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspPatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Q3BspPatch.cpp; path = q3bsp/Q3BspPatch.cpp; sourceTree = SOURCE_ROOT; };
+		79C9F6D145344DA39F04EDC2 /* /Users/kiki/dev/slay/src/renderer/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = renderer/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		86E4E1BD3E0E450380620F73 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Q3BspMap.cpp; path = q3bsp/Q3BspMap.cpp; sourceTree = SOURCE_ROOT; };
+		8FE7B2C996AD451A90AD5AF0 /* /Users/kiki/dev/slay/src/StringHelpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StringHelpers.cpp; path = StringHelpers.cpp; sourceTree = SOURCE_ROOT; };
+		9369087515A54307B6E0DCD3 /* /Users/kiki/dev/slay/src/InputHandlers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InputHandlers.cpp; path = InputHandlers.cpp; sourceTree = SOURCE_ROOT; };
+		95B4F31FE02348A79B927642 /* slay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = slay; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C32DEE1084417C9A970D18 /* /Users/kiki/dev/slay/src/renderer/CameraDirector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CameraDirector.cpp; path = renderer/CameraDirector.cpp; sourceTree = SOURCE_ROOT; };
+		9CC01B9E45C84887978AF020 /* /Users/kiki/dev/slay/src/Application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Application.cpp; path = Application.cpp; sourceTree = SOURCE_ROOT; };
+		9FF78CB17A0B4455886ED314 /* /Users/kiki/dev/slay/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		AC4CB1E18920426D951475B1 /* /Users/kiki/dev/slay/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C342913FE56E4DA981BCA11F /* /Users/kiki/dev/slay/src/renderer/vulkan/CmdBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CmdBuffer.cpp; path = renderer/vulkan/CmdBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		C7328BF70C254AA686253D33 /* /Users/kiki/dev/slay/src/renderer/vulkan/Pipeline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Pipeline.cpp; path = renderer/vulkan/Pipeline.cpp; sourceTree = SOURCE_ROOT; };
+		CB0FCDE99EB647E786088D08 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspStatsUI.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Q3BspStatsUI.cpp; path = q3bsp/Q3BspStatsUI.cpp; sourceTree = SOURCE_ROOT; };
+		DA440B709969451B8665A7A8 /* /Users/kiki/dev/slay/src/renderer/vulkan/Buffers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Buffers.cpp; path = renderer/vulkan/Buffers.cpp; sourceTree = SOURCE_ROOT; };
+		DE42EEB839B64604B1284C30 /* /Users/kiki/dev/slay/src/Math.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Math.cpp; path = Math.cpp; sourceTree = SOURCE_ROOT; };
+		DEC3091EACDC4CCD8EB64F24 /* /Users/kiki/dev/slay/src/renderer/vulkan/VkMemAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VkMemAlloc.cpp; path = renderer/vulkan/VkMemAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		F40E57F97D4C41198760CE5D /* /Users/kiki/dev/slay/src/renderer/vulkan/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = renderer/vulkan/Image.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14E60540409E4C34A568F6B3 /* slay */ = {
+			isa = PBXGroup;
+			children = (
+				B3B142A64D854806BCD5A6C4 /* Source Files */,
+				3DEAF7B3377B46BA80CED5F2 /* /Users/kiki/dev/slay/src/CMakeLists.txt */,
+			);
+			name = slay;
+			sourceTree = "<group>";
+		};
+		2BD0BD8C61A2430F891975D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B4F31FE02348A79B927642 /* slay */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A646E1230143E59B6B2AEA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B3B142A64D854806BCD5A6C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC01B9E45C84887978AF020 /* /Users/kiki/dev/slay/src/Application.cpp */,
+				4D84DCA22825449CAD5C55C6 /* /Users/kiki/dev/slay/src/Frustum.cpp */,
+				9369087515A54307B6E0DCD3 /* /Users/kiki/dev/slay/src/InputHandlers.cpp */,
+				DE42EEB839B64604B1284C30 /* /Users/kiki/dev/slay/src/Math.cpp */,
+				8FE7B2C996AD451A90AD5AF0 /* /Users/kiki/dev/slay/src/StringHelpers.cpp */,
+				0298132ADE284F868CB0630F /* /Users/kiki/dev/slay/src/ThreadProcessor.cpp */,
+				154FC3AE24B4417D8B208FFD /* /Users/kiki/dev/slay/src/Utils.cpp */,
+				9FF78CB17A0B4455886ED314 /* /Users/kiki/dev/slay/src/main.cpp */,
+				0A71968C0961472DA6A9049D /* /Users/kiki/dev/slay/src/q3bsp/Q3BspLoader.cpp */,
+				86E4E1BD3E0E450380620F73 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspMap.cpp */,
+				715A532F8BE047E9B53C85C0 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspPatch.cpp */,
+				CB0FCDE99EB647E786088D08 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspStatsUI.cpp */,
+				79C9F6D145344DA39F04EDC2 /* /Users/kiki/dev/slay/src/renderer/Camera.cpp */,
+				96C32DEE1084417C9A970D18 /* /Users/kiki/dev/slay/src/renderer/CameraDirector.cpp */,
+				15175D508ED946729CA6CCEF /* /Users/kiki/dev/slay/src/renderer/Font.cpp */,
+				3C3F26E1E6524EF6A79767BB /* /Users/kiki/dev/slay/src/renderer/GameTexture.cpp */,
+				6BF04C6010154D158B4ABF7F /* /Users/kiki/dev/slay/src/renderer/RenderContext.cpp */,
+				57028B490D844551A701CC08 /* /Users/kiki/dev/slay/src/renderer/TextureManager.cpp */,
+				44EC4B8A57F8436791624BF3 /* /Users/kiki/dev/slay/src/renderer/vulkan/Base.cpp */,
+				DA440B709969451B8665A7A8 /* /Users/kiki/dev/slay/src/renderer/vulkan/Buffers.cpp */,
+				C342913FE56E4DA981BCA11F /* /Users/kiki/dev/slay/src/renderer/vulkan/CmdBuffer.cpp */,
+				334740ACEBEB4F5C9E8055CF /* /Users/kiki/dev/slay/src/renderer/vulkan/Device.cpp */,
+				F40E57F97D4C41198760CE5D /* /Users/kiki/dev/slay/src/renderer/vulkan/Image.cpp */,
+				C7328BF70C254AA686253D33 /* /Users/kiki/dev/slay/src/renderer/vulkan/Pipeline.cpp */,
+				00BF0D537A4A4F849F621B90 /* /Users/kiki/dev/slay/src/renderer/vulkan/Validation.cpp */,
+				DEC3091EACDC4CCD8EB64F24 /* /Users/kiki/dev/slay/src/renderer/vulkan/VkMemAlloc.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DE47C46626C3479C94C1E57B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				79A646E1230143E59B6B2AEA /* CMake Rules */,
+				AC4CB1E18920426D951475B1 /* /Users/kiki/dev/slay/src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DF9ADF1D1B5E489A888FBD47 = {
+			isa = PBXGroup;
+			children = (
+				14E60540409E4C34A568F6B3 /* slay */,
+				DE47C46626C3479C94C1E57B /* ALL_BUILD */,
+				2BD0BD8C61A2430F891975D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A89082952D648FF8337ACB8 /* slay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606951893CC046B885DA270D /* Build configuration list for PBXNativeTarget "slay" */;
+			buildPhases = (
+				DC5DDBE82D3A482BB8B04745 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD06DE1836464869AEEBCA55 /* PBXTargetDependency */,
+			);
+			name = slay;
+			productName = slay;
+			productReference = 95B4F31FE02348A79B927642 /* slay */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE243226C30F4EFDACE63BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = DAB17858E3C14AEAA1FB72E2 /* Build configuration list for PBXProject "slay" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				85529F070C5A417385C9BC73 /* Debug */,
+				F36E7F672F104BDC8FDF370C /* Release */,
+				0C0AAD57671249C19297B3CC /* MinSizeRel */,
+				EB561C1CE81140CFA65A7D9A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DF9ADF1D1B5E489A888FBD47;
+			projectDirPath = ../../src;
+			projectRoot = "";
+			targets = (
+				9D1E625540B34366B9E615F9 /* ALL_BUILD */,
+				F1682E4C412D49168E0E681E /* ZERO_CHECK */,
+				FC1BEB996D8A451798BF5FA6 /* install */,
+				3A89082952D648FF8337ACB8 /* slay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B11AF53DC3844F189AEF55A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5FFD2EA862D649FEB82BA5FE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		88861955D4314DC8929B3381 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/src -f /Users/kiki/dev/slay/build_debug/src/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B94B4569106E4A3A9CB80DC5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/src -f /Users/kiki/dev/slay/build_debug/src/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DCC7B8B20B8B473EBDC62811 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FC12AD2D57C2412491252CE3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kiki/dev/slay/build_debug/src -f /Users/kiki/dev/slay/build_debug/src/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5DDBE82D3A482BB8B04745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5F06FF527C437ABA6EBD72 /* /Users/kiki/dev/slay/src/Application.cpp */,
+				86CA38DA15E74C1DAC774BAD /* /Users/kiki/dev/slay/src/Frustum.cpp */,
+				55E3C22B0B23464695E419BC /* /Users/kiki/dev/slay/src/InputHandlers.cpp */,
+				6511069143A34F6DB8E8CCFD /* /Users/kiki/dev/slay/src/Math.cpp */,
+				F19A7729F9C041D0A6AFA96F /* /Users/kiki/dev/slay/src/StringHelpers.cpp */,
+				4743C831B6B547E1950AF88C /* /Users/kiki/dev/slay/src/ThreadProcessor.cpp */,
+				AE9CEB24DBFB461487958DFB /* /Users/kiki/dev/slay/src/Utils.cpp */,
+				909B1B4D2A3E4ED3B9FBC2DA /* /Users/kiki/dev/slay/src/main.cpp */,
+				8E3E10F8F8BC46A9B60D11A8 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspLoader.cpp */,
+				1EE0D2DEEAD94003A739693D /* /Users/kiki/dev/slay/src/q3bsp/Q3BspMap.cpp */,
+				D383FAAA89D9460D9CC42076 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspPatch.cpp */,
+				6426C338BE37437BAB8526B6 /* /Users/kiki/dev/slay/src/q3bsp/Q3BspStatsUI.cpp */,
+				C9B0596E61174BF8B220CCC5 /* /Users/kiki/dev/slay/src/renderer/Camera.cpp */,
+				3845B89752784DDE84E197B8 /* /Users/kiki/dev/slay/src/renderer/CameraDirector.cpp */,
+				D52D3DB7F7A34B708FA5E6A3 /* /Users/kiki/dev/slay/src/renderer/Font.cpp */,
+				737BB324CAC244C683C928C4 /* /Users/kiki/dev/slay/src/renderer/GameTexture.cpp */,
+				A2FC9099F8414A95979FC3D1 /* /Users/kiki/dev/slay/src/renderer/RenderContext.cpp */,
+				E9FCE44BF5464BCF92379F3D /* /Users/kiki/dev/slay/src/renderer/TextureManager.cpp */,
+				71C794DCF5A94A54872A0B3F /* /Users/kiki/dev/slay/src/renderer/vulkan/Base.cpp */,
+				E77597AE13B54D5EBCAD0556 /* /Users/kiki/dev/slay/src/renderer/vulkan/Buffers.cpp */,
+				9A946191D9844E2F9EF6DC3A /* /Users/kiki/dev/slay/src/renderer/vulkan/CmdBuffer.cpp */,
+				FA55A6973DC0419C8A043970 /* /Users/kiki/dev/slay/src/renderer/vulkan/Device.cpp */,
+				DFCEB3E8776F43068D69EDD4 /* /Users/kiki/dev/slay/src/renderer/vulkan/Image.cpp */,
+				E1928354CB42475B82EF9DFC /* /Users/kiki/dev/slay/src/renderer/vulkan/Pipeline.cpp */,
+				76F7C6BE57BB4B61BA0B711A /* /Users/kiki/dev/slay/src/renderer/vulkan/Validation.cpp */,
+				6D370AF6A3014470A235294A /* /Users/kiki/dev/slay/src/renderer/vulkan/VkMemAlloc.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B82319A2CC24412C8AD9020C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1E625540B34366B9E615F9 /* ALL_BUILD */;
+			targetProxy = 682899C5A4A548008DBD6157 /* PBXContainerItemProxy */;
+		};
+		C8FF4E4C6D1741478C4E201E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A89082952D648FF8337ACB8 /* slay */;
+			targetProxy = D4D506326C524E08972CB2C3 /* PBXContainerItemProxy */;
+		};
+		DD06DE1836464869AEEBCA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = E2102703092F4AE5B569C915 /* PBXContainerItemProxy */;
+		};
+		ECD326ABC29840ADAD4BAE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1682E4C412D49168E0E681E /* ZERO_CHECK */;
+			targetProxy = A98B629C76A14542B9ECF63D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01ACEB12BA52482B9AB45F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src/build;
+			};
+			name = Release;
+		};
+		01F014A4B87847DBAD97C2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kiki/dev/slay;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/src/.,/Users/kiki/dev/slay/src/common,/Users/kiki/dev/slay/src/q3bsp,/Users/kiki/dev/slay/src/renderer,/Users/kiki/dev/slay/src/../contrib/sdl2/include,/Users/kiki/dev/slay/src/../contrib/stb_image,/Users/kiki/dev/slay/src/../contrib/zlib,/Users/kiki/dev/slay/src/../contrib/imgui,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/kiki/dev/slay/../vulkansdk/macOS/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/kiki/dev/slay/../vulkansdk/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/kiki/dev/slay/../vulkansdk/macOS/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-Wno-c++11-extensions' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/kiki/dev/slay/build_debug/contrib/zlib/Release/libz.a /Users/kiki/dev/slay/build_debug/contrib/stb_image/Release/libstb_image.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/Release/libSDL2.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/Release/libSDL2main.a -lvulkan.1 -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -framework AVFoundation -framework Foundation -Wl,-undefined,error -Wl,-compatibility_version,1.0.0 -Wl,-current_version,10.0.0 -Wl,-weak_framework,Metal -Wl,-weak_framework,QuartzCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = slay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		05F522BF22614E75A5715461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kiki/dev/slay;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/src/.,/Users/kiki/dev/slay/src/common,/Users/kiki/dev/slay/src/q3bsp,/Users/kiki/dev/slay/src/renderer,/Users/kiki/dev/slay/src/../contrib/sdl2/include,/Users/kiki/dev/slay/src/../contrib/stb_image,/Users/kiki/dev/slay/src/../contrib/zlib,/Users/kiki/dev/slay/src/../contrib/imgui,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/kiki/dev/slay/../vulkansdk/macOS/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/kiki/dev/slay/../vulkansdk/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/kiki/dev/slay/../vulkansdk/macOS/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-Wno-c++11-extensions' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/kiki/dev/slay/build_debug/contrib/zlib/Debug/libz.a /Users/kiki/dev/slay/build_debug/contrib/stb_image/Debug/libstb_image.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/Debug/libSDL2d.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/Debug/libSDL2maind.a -lvulkan.1 -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -framework AVFoundation -framework Foundation -Wl,-undefined,error -Wl,-compatibility_version,1.0.0 -Wl,-current_version,10.0.0 -Wl,-weak_framework,Metal -Wl,-weak_framework,QuartzCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = slay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2ED498B6B17645F19380867A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src/build;
+			};
+			name = MinSizeRel;
+		};
+		380C10194CA24FBE97D58586 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40A020EB76DC4A6DAC3EB758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		49983EA5497B4AA6BEED6671 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BBDA9666581425BAA6F1D06 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kiki/dev/slay/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/src/.,/Users/kiki/dev/slay/src/common,/Users/kiki/dev/slay/src/q3bsp,/Users/kiki/dev/slay/src/renderer,/Users/kiki/dev/slay/src/../contrib/sdl2/include,/Users/kiki/dev/slay/src/../contrib/stb_image,/Users/kiki/dev/slay/src/../contrib/zlib,/Users/kiki/dev/slay/src/../contrib/imgui,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/kiki/dev/slay/../vulkansdk/macOS/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/kiki/dev/slay/../vulkansdk/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/kiki/dev/slay/../vulkansdk/macOS/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-Wno-c++11-extensions' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/kiki/dev/slay/build_debug/contrib/zlib/MinSizeRel/libz.a /Users/kiki/dev/slay/build_debug/contrib/stb_image/MinSizeRel/libstb_image.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/MinSizeRel/libSDL2.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/MinSizeRel/libSDL2main.a -lvulkan.1 -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -framework AVFoundation -framework Foundation -Wl,-undefined,error -Wl,-compatibility_version,1.0.0 -Wl,-current_version,10.0.0 -Wl,-weak_framework,Metal -Wl,-weak_framework,QuartzCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = slay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		50983391BBF54EFDB9C78192 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/kiki/dev/slay/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kiki/dev/slay/../vulkansdk/macOS/include,/Users/kiki/dev/slay/contrib,/Users/kiki/dev/slay/src/.,/Users/kiki/dev/slay/src/common,/Users/kiki/dev/slay/src/q3bsp,/Users/kiki/dev/slay/src/renderer,/Users/kiki/dev/slay/src/../contrib/sdl2/include,/Users/kiki/dev/slay/src/../contrib/stb_image,/Users/kiki/dev/slay/src/../contrib/zlib,/Users/kiki/dev/slay/src/../contrib/imgui,/Users/kiki/dev/slay/contrib/sdl2/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/kiki/dev/slay/../vulkansdk/macOS/lib;
+				LIBRARY_SEARCH_PATHS = " /Users/kiki/dev/slay/../vulkansdk/macOS/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/kiki/dev/slay/../vulkansdk/macOS/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-Wno-c++11-extensions' '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/kiki/dev/slay/build_debug/contrib/zlib/RelWithDebInfo/libz.a /Users/kiki/dev/slay/build_debug/contrib/stb_image/RelWithDebInfo/libstb_image.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/RelWithDebInfo/libSDL2.a /Users/kiki/dev/slay/build_debug/contrib/sdl2/RelWithDebInfo/libSDL2main.a -lvulkan.1 -lm -liconv -framework CoreVideo -framework Cocoa -framework IOKit -framework ForceFeedback -framework Carbon -framework CoreAudio -framework AudioToolbox -framework AVFoundation -framework Foundation -Wl,-undefined,error -Wl,-compatibility_version,1.0.0 -Wl,-current_version,10.0.0 -Wl,-weak_framework,Metal -Wl,-weak_framework,QuartzCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = slay;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		50AD34E4181C469BB5D09601 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5976E94AF22F49E9AC0F8776 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		63CD256FD88B4561A7FEFC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		78FD9A37338D4013A8E52499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src/build;
+			};
+			name = Debug;
+		};
+		8DBA3B42D0B34D48BCDF6C97 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9DB71AD3E87C42E1BAFFBED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A31DD262B93748D9B98795FA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C6BBABCC5AF742BAB10A8418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D02814CAA2B540A1824335C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DF9180558AB042D3A5BAEF71 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F1ACC41379A040CD92757BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kiki/dev/slay/build_debug/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606951893CC046B885DA270D /* Build configuration list for PBXNativeTarget "slay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F522BF22614E75A5715461 /* Debug */,
+				01F014A4B87847DBAD97C2CF /* Release */,
+				4BBDA9666581425BAA6F1D06 /* MinSizeRel */,
+				50983391BBF54EFDB9C78192 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9BEBFF8628C048939B1A7C9A /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBABCC5AF742BAB10A8418 /* Debug */,
+				40A020EB76DC4A6DAC3EB758 /* Release */,
+				380C10194CA24FBE97D58586 /* MinSizeRel */,
+				50AD34E4181C469BB5D09601 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A43A25ED5362493AB2A521AF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1ACC41379A040CD92757BE1 /* Debug */,
+				9DB71AD3E87C42E1BAFFBED8 /* Release */,
+				DF9180558AB042D3A5BAEF71 /* MinSizeRel */,
+				A31DD262B93748D9B98795FA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAB17858E3C14AEAA1FB72E2 /* Build configuration list for PBXProject "slay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FD9A37338D4013A8E52499 /* Debug */,
+				01ACEB12BA52482B9AB45F19 /* Release */,
+				2ED498B6B17645F19380867A /* MinSizeRel */,
+				8DBA3B42D0B34D48BCDF6C97 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED83B3FD74BA4EE886BABF3D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CD256FD88B4561A7FEFC6B /* Debug */,
+				D02814CAA2B540A1824335C4 /* Release */,
+				5976E94AF22F49E9AC0F8776 /* MinSizeRel */,
+				49983EA5497B4AA6BEED6671 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE243226C30F4EFDACE63BAF /* Project object */;
+}

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.4.4)
+cmake_minimum_required(VERSION 3.4)
 
 project(slay)
 
@@ -47,8 +47,19 @@ include_directories(
 )
 
 add_executable(slay ${SOURCES})
+target_compile_options(slay PUBLIC "-Wno-c++11-extensions")
+
+if (APPLE)
+	set (VULKAN_LIB "libvulkan.1.dylib")
+elseif (WIN32)
+	set (VULKAN_LIB "vulkan-1.lib")
+else()
+	message( FATAL_ERROR "Unsupported OS" )
+endif(APPLE)
+
 target_link_libraries(
 	slay
 	zlibstatic stb_image SDL2-static SDL2main
-	vulkan-1.lib
+	${VULKAN_LIB}
+	${EXTRA_LIBS}
 )
