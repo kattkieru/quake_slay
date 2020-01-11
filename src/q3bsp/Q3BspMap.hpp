@@ -80,8 +80,8 @@ private:
     std::vector<Q3FaceRenderable>   m_renderFaces;    // bsp faces in "renderable format"
     std::vector<Q3BspPatch *>       m_patches;        // curved surfaces
     std::vector<GameTexture *>      m_textures;       // loaded in-game textures
-    std::vector<std::set<Q3FaceRenderable *>> m_visibleFacesPerThread;   // list of visible surfaces to render (per thread)
-    std::vector<std::set<int>>                m_visiblePatchesPerThread; // list of visible patches to render (per thread)
+    std::vector< std::set<Q3FaceRenderable *> > m_visibleFacesPerThread;   // list of visible surfaces to render (per thread)
+    std::vector< std::set<int> >                m_visiblePatchesPerThread; // list of visible patches to render (per thread)
     vk::Texture *m_lightmapTextures = nullptr;        // bsp lightmaps
 
     Frustum  m_frustum; // view frustum

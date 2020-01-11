@@ -34,6 +34,12 @@ bool RenderContext::Init(const char *title, int x, int y, int w, int h)
     windowFlags |= SDL_WINDOW_FULLSCREEN;
 #endif
     window = SDL_CreateWindow(title, x, y, w, h, windowFlags);
+
+    if (!window) {
+        printf("-- SDL_CreateWindow failed: %s.\n", SDL_GetError());
+        exit(1);
+    }
+
     m_windowTitle = title;
     SDL_Vulkan_GetDrawableSize(window, &width, &height);
 
