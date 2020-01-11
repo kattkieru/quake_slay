@@ -12,3 +12,7 @@ macOS/QuakeBspViewer
 macOS/*.framework
 macOS/*.dylib
 x64
+build
+*.exe
+*.dll
+

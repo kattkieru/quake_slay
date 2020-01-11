@@ -7,3 +7,6 @@
 [submodule "contrib/sdl2"]
 	path = contrib/sdl2
 	url = https://github.com/kattkieru/SDL2.git
+[submodule "contrib/physfs"]
+	path = contrib/physfs
+	url = https://github.com/kattkieru/physfs.git
