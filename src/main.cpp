@@ -1,4 +1,3 @@
-
 #include "Application.hpp"
 #include "InputHandlers.hpp"
 #include "renderer/RenderContext.hpp"
@@ -15,7 +14,6 @@ int g_fps = 1;
 
 int main(int argc, char **argv)
 {
-    printf("Slay Engine: Init");
     // initialize SDL
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
     {

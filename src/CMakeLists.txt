@@ -47,11 +47,11 @@ include_directories(
 )
 
 add_executable(slay ${SOURCES})
-target_compile_options(slay PUBLIC "-Wno-c++11-extensions")
 
 if (APPLE)
 	set (VULKAN_LIB "libvulkan.1.dylib")
-elseif (WIN32)
+	target_compile_options(slay PUBLIC "-Wno-c++11-extensions")
+elseif (MSVC)
 	set (VULKAN_LIB "vulkan-1.lib")
 else()
 	message( FATAL_ERROR "Unsupported OS" )

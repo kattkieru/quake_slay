@@ -12,11 +12,9 @@ set(INSTALL_LIB_DIR "${CMAKE_SOURCE_DIR}/lib")
 set(INSTALL_INC_DIR "${CMAKE_SOURCE_DIR}/include")
 
 
-if(WINDOWS)
+if(MSVC)
 	set(CMAKE_SHARED_LIBRARY_PREFIX "")
 	set(CMAKE_CPP_FLAGS "${CMAKE_CPP_FLAGS} -D_CRT_SECURE_NO_WARNINGS")
-elseif(APPLE OR UNIX)
-	set(CMAKE_CPP_FLAGS "${CMAKE_CPP_FLAGS} -Wno-c++11-extensions")
 endif()
 
 
@@ -52,12 +50,24 @@ endif(APPLE)
 
 option(VIDEO_VULKAN "" ON)
 
+## physfs
+option(PHYSFS_BUILD_SHARED "" OFF)
+option(PHYSFS_BUILD_TEST "Build stdio test program." OFF)
+
 add_subdirectory(contrib/zlib)
 add_subdirectory(contrib/stb_image)
 add_subdirectory(contrib/sdl2)
+add_subdirectory(contrib/physfs)
 add_subdirectory(src)
 
-add_dependencies(slay zlibstatic stb_image SDL2-static SDL2main)
+## disable extra executables / DLLs from sub-projects
+set_target_properties(
+	minigzip example zlib
+	PROPERTIES EXCLUDE_FROM_ALL 1
+	EXCLUDE_FROM_DEFAULT_BUILD 1
+)
+
+add_dependencies(slay zlibstatic stb_image physfs-static SDL2-static SDL2main )
 
 ## this fixes linking in debug builds -- the 'd' postfix
 ## is largely irrelevant these days
